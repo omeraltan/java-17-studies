@@ -1,4 +1,4 @@
-package org.basics.ocp8.enums;
+package org.basics.ocp8.chapter02.enums;
 
 enum CoffeeSize {
     BIG(8, "B"), HUGE(10, "B"), OVERWHELMING(16, "A") {
