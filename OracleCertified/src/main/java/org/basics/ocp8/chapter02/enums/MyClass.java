@@ -1,4 +1,4 @@
-package org.basics.ocp8.enums;
+package org.basics.ocp8.chapter02.enums;
 
 public class MyClass {
     public enum Day {

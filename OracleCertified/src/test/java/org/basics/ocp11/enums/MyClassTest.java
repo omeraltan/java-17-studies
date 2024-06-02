@@ -1,7 +1,7 @@
 package org.basics.ocp11.enums;
 
 import jdk.jfr.Description;
-import org.basics.ocp8.enums.MyClass;
+import org.basics.ocp8.chapter02.enums.MyClass;
 import org.junit.Test;
 
 
