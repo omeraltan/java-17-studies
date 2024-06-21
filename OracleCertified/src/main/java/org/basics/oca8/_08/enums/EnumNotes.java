@@ -42,7 +42,7 @@ public class EnumNotes {
  * Month -> 12 tane değer alabilir.
  * DayOfWeek -> 7 tane gün değeri alabilir.
  *
- * Employee Tipleri olsun :
+ * Employees Tipleri olsun :
  * 1 - Full Time çalışan
  * 2 - Part Time çalışan
  * 3 - Stajyer
