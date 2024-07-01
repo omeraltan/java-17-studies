@@ -2,11 +2,17 @@ package org.basics.oca8._42_Generics;
 
 public class GenericClassExample1 {
 
+    // Method "static" ise "<T>" ibaresini methodda tanımlamak zorundayız.
     public static<T> void genericMethod(T[] array) {
         for(T element : array) {
             System.out.print(element + " ");
         }
         System.out.println();
+    }
+
+    // Method static değilse <T> ibaresini method da tanımlamasak ta olur.
+    public <T> void genericMethod(T[] array, T element) {
+        System.out.print(element + " ");
     }
 
     public static void main(String[] args) {
