@@ -26,7 +26,7 @@ class OuterClass{
         OuterClass outer = new OuterClass();
         RegularInnerClass inner = outer.new RegularInnerClass();
         inner.printMessage();
-        OuterClass.RegularInnerClass inner2 = new OuterClass().new RegularInnerClass();
+        OuterClassExample.InnerClass inner2 = new OuterClassExample().new InnerClass();
         System.out.println(outer.name);
 
         System.out.println(staticName);
@@ -56,6 +56,7 @@ public class InnerClassNotes {
  *      b - local inner class
  *      c - anonymous inner class
  *  2 - static nested class
+ *  3 - Nested interface ler
  *
  * mantıksal gruplama / logically grouping
  * nested class lar yardımcı classlardır.
@@ -64,4 +65,30 @@ public class InnerClassNotes {
  * inner class lar outer class ların private üyelerine erişim sağlayabilir.
  * inner class larda static değişkenler tanımlanamazlar.
  * static nested class ta static değişken tanımlanabilir.
+ *
+ * ------------------------------------------------------
+ *
+ * source file oluşumu ;
+ * javada bir .java dosyası / bir sınıf derlendiğinde .class dosyası oluşur.
+ * "MyOuter$MyInner.class" şeklinde bir dosya daha oluşur!!!!
+ * For Example:
+ * class MyOuter{
+ *     class MyInner{
+ *
+ *     }
+ * }
+ *
+ * ------------------------------------------------------
+ *
+ * Mantıksal gruplama (logically grouping)
+ * Bir sınıf / class sadece bir sınıf için anlamlıysa, bu durumda bu 2 sınıfı mantıksal olarak gruplayabiliriz.
+ * Bu iki sınıfı bir arada tutabiliriz. Outer - Inner ilişkisi içerisinde.
+ * Encapsulation artışı :
+ * Javada bir private değişkene sadece ilgili sınıftan erişim sağlanabilir.
+ * Kalıtım da olsa bu değişkene erişim sağlanamaz.
+ * Nested class lar , outer class ların private üyelerine (instance değişken / method) erişim sağlayabilir!!1
+ * Kalıtımla bu özellik sağlanamaz.
+ *
+ * Readable , maintainable özelliğine katkı sağlar.
+ *
  */
