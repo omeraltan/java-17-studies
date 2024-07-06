@@ -25,7 +25,7 @@ public class ThreadStateNotes {
  *
  * 1 - NEW :
  * Thread objesini oluşturduğumuzda fakat henüz start methodunu çağırmadığımızda thread in durumu "NEW" dir.
- * Thread nesnesi mevcuttur olur ("NEW" ile).
+ * Thread nesnesi mevcutta var olur ("NEW" ile).
  *
  * 2 - RUNNABLE :
  * İlk olarak start methodunu çağırdığımızda ilgili thread "RUNNABLE" durumuna geçer
@@ -46,11 +46,11 @@ public class ThreadStateNotes {
  * "WAITING" durumunda bir thread başka bir thread in işini yapmasını bekliyor demektir.
  *
  * 5 - TIMED_WAITING :
- * Bu durumda thread çalışmaya uygun değildir. Belirtilen bir zaman kadar beklendildiği senaryolardır.
+ * Bu durumda thread çalışmaya uygun değildir. Belirtilen bir zaman kadar beklenildiği senaryolardır.
  * join(); methodunun overloaded versiyonları vardır.
  *
  * 6 - BLOCKED :
- * Bir thread başka bir thread i block ladığı zaman ortaya çıkan durumdur.
+ * Bir thread, başka bir thread i block ladığı zaman ortaya çıkan durumdur.
  * synchronized, javada bir keyword tür, methodlarda ve blocklarda kullanılabilir.
  * javada nesnelerin kilitleri (lock) vardır.
  *

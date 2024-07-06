@@ -2,7 +2,9 @@ package org.basics.ocp6._47_Threads;
 
 public class ThreadsNotes {
 
+    public static void main(String[] args) {
 
+    }
 
 }
 
@@ -11,7 +13,7 @@ public class ThreadsNotes {
  * java.lang.Thread
  * 1 - Thread dediğimizde aklımıza gelecek olan şey java.lang.Thread gelmelidir.
  * 2 - Thread dediğimizde aklımıza çalışan iş parçacığı / lightweight process gelmelidir.
- * 1.noktadam baktığımızda (class, obje açısından) thread nesneleri diğer java nesnelerinde olduğu gibi heapte yaşayacaktır.
+ * 1.noktadan baktığımızda (class, nesne açısından) thread nesneleri diğer java nesnelerinde olduğu gibi heapte yaşayacaktır.
  * 2.noktadan baktığımızda kendi stack alanına sahiptir (lightweight process).
  * process : OS in temel görevleri; kaynak paylaşımı yapmaktır. / kaynakları yönetmektir (RAM / memory, cpu...).
  * process kavramı OS(operating system / işletim sistemi) açısından  çalışan programlar / uygulamalar anlamına gelir.
@@ -21,7 +23,7 @@ public class ThreadsNotes {
  * Javada basit bir "hello world" örneğinde bile main thread i çalışacaktır (Örnek: ThreadExample).
  * --------------------------------------------------
  * Javada treadlerin yönetiminden jvm (Java Virtual Machine) sorumludur.
- * JVM mini bir OS gibi çalışır. GC mekanizması, thread mekanizması vs. bunları yönetir.
+ * JVM, mini bir OS gibi çalışır. GC mekanizması, thread mekanizması vs. bunları yönetir.
  * --------------------------------------------------
  * Yeni bir Thread oluşturmak için iki yaklaşım vardır.
  * 1 - java.lang.Thread sınıfını kalıtmaktır (extends).
