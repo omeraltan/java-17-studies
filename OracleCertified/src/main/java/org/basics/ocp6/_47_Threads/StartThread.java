@@ -21,6 +21,14 @@ public class StartThread {
 
         Thread t1 = new Thread(myRunnable);
         t1.start();
+        // t1.start(); // java.lang.IllegalThreadStateException
+        // Aynı thread / iş parçacığını iki kere start edemeyiz.
+        // Start methodunu çağırdığımızda arka planda yeni bir thread ve stack oluşur. run methodu otomatik olarak çalışır.
+
+        // run methodunu n kere çağırabiliriz.
+        // burada yeni bir thread oluşmaz.
+        t1.run();
+        t1.run();
     }
 
 }
