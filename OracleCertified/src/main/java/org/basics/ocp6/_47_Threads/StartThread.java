@@ -17,7 +17,7 @@ public class StartThread {
         // runnable değişkenimize parametre olarak constructor a verilir.
 
         MyRunnable myRunnable = new MyRunnable();
-        // myRunnable.start(); // legal deiğildir.
+        // myRunnable.start(); // legal değildir.
 
         Thread t1 = new Thread(myRunnable);
         t1.start();
