@@ -31,7 +31,7 @@ public class StreamNotes {
 
 
         //--------- Source ---------|------intermediate operations---------|-terminal operation-|
-        Stream.of(1,2,3,4,5).peek(i -> System.out.println(i + " ")).count();
+        Stream.of(1,2,3,4,5).peek(i -> System.out.println(i + " ")).count(); // peek methodu -> Consumer ile çalışır.
         // peek() methodu, intermediate operations lardandır. Lazy olarak çalışır. Yani terminal operation yoksa çalışmaz.
         // count() methodu, bir terminal operation'dır. Bir stream üzerinde terminal operation çalıştıktan sonra, bir başka terminal operation'ı çağıramayız.
 
