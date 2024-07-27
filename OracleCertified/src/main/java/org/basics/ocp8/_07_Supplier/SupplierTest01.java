@@ -12,7 +12,7 @@ public class SupplierTest01 {
         Supplier<Integer> supplier = random::nextInt;
         // nextInt methodu static değildir. Bu case için direkt sınıf ismi::methodIsmi şeklinde kullanamayız.
 
-        Stream.generate(supplier).limit(10).forEach(System.out::println);
+        Stream.generate(supplier).limit(4).forEach(System.out::println);
     }
 
 }
