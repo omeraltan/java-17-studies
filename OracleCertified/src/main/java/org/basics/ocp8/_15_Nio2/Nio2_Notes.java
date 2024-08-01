@@ -1,10 +1,10 @@
-package org.basics.ocp8._15_NIO2;
+package org.basics.ocp8._15_Nio2;
 
 import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class NIO2_Notes {
+public class Nio2_Notes {
 
     public static void main(String[] args) {
 
