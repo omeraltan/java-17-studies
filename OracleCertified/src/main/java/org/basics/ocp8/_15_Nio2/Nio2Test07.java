@@ -1,4 +1,4 @@
-package org.basics.ocp8._15_NIO2;
+package org.basics.ocp8._15_Nio2;
 
 import java.io.IOException;
 import java.nio.file.Files;
