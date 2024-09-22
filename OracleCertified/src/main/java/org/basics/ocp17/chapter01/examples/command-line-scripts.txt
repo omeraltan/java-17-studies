@@ -1,0 +1,28 @@
+
+cd example1
+omeraltan@192 example01 % javac HelloWorld.java                         --> Bu komut ile derlenir
+omeraltan@192 example1 % java HelloWorld.java                           --> Bu komut ile çalıştırılır
+
+cd example2
+omeraltan@192 example2 % javac -d bin src/ HelloWorld.java              --> Bu komut ile "src" altındaki HelloWorld kaynağı "bin" dosyasına derlenir.
+
+cd example3
+omeraltan@192 example3 % javac HelloWorld.java                          --> Bu komut ile sınıf derlenir.
+omeraltan@192 example3 % java HelloWorld.java omer altan "OMER ALTAN"   --> Bu komut ile derlenmiş sınıfa parametreler gönderilir (3 ayrı parametre).
+
+cd example4
+omeraltan@192 example4 % javac Dog.java Animal.java                     --> Bu komut ile Dog sınıfı ve Animal sınıfı derlenir.
+omeraltan@192 example4 % java Dog.java                                  --> Çalıştırma sonucu "Barking..." yazar
+
+cd example5
+omeraltan@192 example5 % javac -cp src src/pack2/Dog.java src/pack1/Animal.java     --> Bu komut ile ayrı paketlerdeki Dog ve Animal derlenir.
+omeraltan@192 src % java -cp . pack2/Dog.java                                       --> Bu komut ile src klasörü altındaki pack2 klasörü altındaki derlenmiş Dog sınıfı çalıştırılır.
+
+cd example6
+omeraltan@192 example6 % jar -cvf myDogFile.jar .                       --> Bu komut ile ilgili Dog class'ının jar dosyası oluşturulmaktadır.
+omeraltan@192 examples % jar --create --verbose --file myDogFile.jar .  --> Bu komut ile de ilgili Dog class'ının jar dosyası oluşturulmaktadır.
+
+
+1- Derlenen sınıflar aynı paket altında .class uzantılı kaynakları oluşur. Bunu değiştirmek için "-d" kullanılır.
+2- Komut ile çalıştırılmak istenen sınıf main methodu boşluklar ile parametre göndeririz ancak ift tırnak içine alırsanız tek parametre olarak kabul edilir.
+3- Aynı paket altında bir birini kalıtmış sınıflarda derlenebilir.
