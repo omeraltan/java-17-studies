@@ -32,6 +32,10 @@ public class _11_Ternary_Operator {
 
         // int animal = (stripes < 9) ? 3 : "Horse";        // -> DOES NOT COMPILE
 
+        System.out.println("------------");
+
+        int x = 20;
+        System.out.println(~x);
 
 
 
