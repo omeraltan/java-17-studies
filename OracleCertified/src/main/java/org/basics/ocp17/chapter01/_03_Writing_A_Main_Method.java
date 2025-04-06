@@ -67,7 +67,7 @@ class Zoo{
  *
  * Eğer main methoduna yeterli parametre göndermezsek kodumuz patlar (Zoo sınıfı için).
  * Çünkü bizden iki parametre bekliyor.
- * Tek bir komut ile hem derleme hem çalıştırma yapabiliriz : java Zoo.java Bronx Zoo
+ * Tek bir komut ile hem derleme hem çalıştırma yapabiliriz : java Zoo.java Bronx Zoo (Single-File Source-Code)
  * Buna "single-file-sourcecode" özelliği denir
  * Parametre alması gereken main methodumuza parametrelerini göndermediğimizde : "java.lang.ArrayIndexOutOfBoundsException" hatası alırız.
  *
