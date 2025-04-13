@@ -23,7 +23,7 @@ public class _01_Statements_And_Blocks {
  * 3. Boolean değişkenleri bir if bloğu içerisinde koşul olarak kullanabiliriz.
  * 4. Else statement içinde tek bir satır varsa "curly braces" {} gerekli değildir.
  * 5. Tek bir satır dahi olsa "curly braces" {} kullanılmaması tavsiye edilmez. Okunurluğun artırılması için curly braces'ın her zaman kullanılması tavsiye edilir.
- * 6. If bloğuna gönderiler argumanın boolean bir arguman olması gerekmektedir.
+ * 6. If bloğuna gönderilen argümanın boolean bir argüman olması gerekmektedir.
  * 7.
  *
  */

@@ -1,6 +1,5 @@
 package org.basics.ocp17.chapter01;
 
-
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;       // -> Full path bilgisidir.
 

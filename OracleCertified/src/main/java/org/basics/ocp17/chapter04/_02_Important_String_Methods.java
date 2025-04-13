@@ -16,7 +16,7 @@ public class _02_Important_String_Methods {
         System.out.println(whiteSpace.length());    // -> 1
 
         String escape = "\\-\"-\n-\t";
-        System.out.println(escape.length());        // ->
+        System.out.println(escape.length());        // -> 7
 
         for (char c : escape.toCharArray()) {
             System.out.print("[" + c + "]");
@@ -92,8 +92,16 @@ public class _02_Important_String_Methods {
         for (char c : chars) {
             System.out.print(c + "-");
         }
+        System.out.println("");
+        System.out.println("----------");
 
+        String contentChars = "ömeraltan";
+        char[] charArray = new char[4];
 
+        contentChars.getChars(2,6,charArray,0);
+        for (char c : charArray){
+            System.out.print("[" + c + "]");
+        }
     }
 
 }
@@ -103,7 +111,7 @@ public class _02_Important_String_Methods {
  * 1. charAt(int index) : Belirtilen index teki karakteri geriye döner.
  * 2. indexOf()         : Tek bir karakter veya bir String ifadesi alabilir. Tek bir karakter ile bu karakterin index değerini bize döner.
  * 3. lastIndexOf()     : Bu method String değerinde sondan bakmaya başlar yani sağdan sola doğru bakmaya başlar.
- * 4. substring()       : Bu String methodu String ifadenin bir bölümnü dönecektir.
+ * 4. substring()       : Bu String methodu String ifadenin bir bölümünü dönecektir.
  *                        Belirtilen index değerinden başlayıp sona kadar döner yada verilen başlangıç ve bitiş değerleri arasındaki ifadeyi dönecektir.
  *                        "Başlangıç karakteri dahil bitiş karakteri hariçtir."
  * 5. toLowerCase()     : Büyük harfleri küçük harfe çevirir.
@@ -116,9 +124,9 @@ public class _02_Important_String_Methods {
  * 9. toString(); equals(Object); hashCode(); : Bu methodlar java.lang.Object sınıfında yer alır. Eğer alt sınıflar tarafından override edilmezler ise Object sınıfındaki bu methodlar varsayıla olarak kullanılır.
  * 10.equals(Object)    : Bu method override edilmez ise nesneleri karşılaştırmak için kullanılır. Eğer override edilmez ise == operatörü ile aynı şekilde çalışır. İki referans değişkenin aynı objeyi gösterip göstermediği olacak.
  * 11.hashCode()        : equals() methodu override edildiğinde hashCode() methodu da override edilmelidir. Eğer iki nesne için a.equals(b) true ise a.hashCode() == b.hashCode() true olmalıdır.
- * 12.startsWith()      : Verdiğimiz String değerin Diğer String in başında yer alıp almadığını kontrol eder.
- * 13.endWiths()        : Verdiğimiz String değerin Diğer String in sonunda yer alıp almadığını kontrol eder.
- * 14.contains()        : Verdiğimiz String değerin Diğer String in herhangi bir yerinde olup olmadığına bakar.
+ * 12.startsWith()      : Verdiğimiz String değerin diğer String in başında yer alıp almadığını kontrol eder.
+ * 13.endWiths()        : Verdiğimiz String değerin diğer String in sonunda yer alıp almadığını kontrol eder.
+ * 14.contains()        : Verdiğimiz String değerin diğer String in herhangi bir yerinde olup olmadığına bakar.
  * 15.replace()         : Bu method "char" ve "CharSequence" alır. İki parametre alırlar ve ilk parametre değiştirilen değer ikinci parametre değiştirilecek değer
  * 16.toCharArray()     : Bu method String ifadeyi char array e dönüştürecektir.
  *

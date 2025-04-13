@@ -18,7 +18,7 @@ public class _04_Working_With_Indentation {
         System.out.println(block.indent(1).length());    // -> 10
         System.out.println(concat.indent(-1).length());  // -> 7
         System.out.println(concat.indent(-4).length());  // -> 6
-        System.out.println(concat.stripIndent().length());  // ->
+        System.out.println(concat.stripIndent().length());  // -> 6
 
     }
 
