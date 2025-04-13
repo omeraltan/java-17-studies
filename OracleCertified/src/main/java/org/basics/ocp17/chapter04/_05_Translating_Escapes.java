@@ -61,9 +61,9 @@ public class _05_Translating_Escapes {
 
 /**
  *
- * 1. translateEscapes();
- * 2. isEmpty();
- * 3. isBlank();
+ * 1. translateEscapes() : Bir String içinde yazılmış escape (kaçış) dizilerini gerçek karakterlere çevirir.
+ * 2. isEmpty() : Bir String boşsa (yani length() == 0) true döner. Sadece hiçbir karakter içermeyen string için geçerlidir.
+ * 3. isBlank() : isEmpty()'den farklı olarak, sadece boş değil, sadece boşluklardan oluşan stringleri de boş kabul eder.
  * 4. format(String format, Object args...);
  * 5. format(Locale loc, String format, Object args...);
  * 6. formatted(Object args...);
