@@ -1,6 +1,7 @@
 package org.basics.ocp17.chapter04;
 
 import java.time.*;
+import java.util.Set;
 
 public class _15_Working_With_Date_And_Times {
 
@@ -49,6 +50,13 @@ public class _15_Working_With_Date_And_Times {
         System.out.println(zoned2);
         System.out.println(zoned3);
 
+        System.out.println("---------------");
+
+        Set<String> zoneIds = ZoneId.getAvailableZoneIds();
+        System.out.println(ZoneId.systemDefault());
+        for (String zoneId : zoneIds){
+            System.out.println(zoneId);
+        }
 
 
 
