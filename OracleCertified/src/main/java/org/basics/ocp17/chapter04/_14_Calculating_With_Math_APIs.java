@@ -50,6 +50,7 @@ public class _14_Calculating_With_Math_APIs {
         System.out.println(new Random().nextInt());
         System.out.println(new Random().nextInt(10));
 
+
     }
 
 }

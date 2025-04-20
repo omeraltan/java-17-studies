@@ -21,6 +21,8 @@ public class _11_Creating_An_Array_Of_Primitives {
         // Not Same types
         // int ids2[], types;
 
+
+
     }
 
 }

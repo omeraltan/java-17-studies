@@ -1,29 +1,40 @@
-# === IntelliJ IDEA Ayarları ===
+# ===============================
+# IDE Ayarları (IntelliJ IDEA)
+# ===============================
 .idea/
 *.iml
 *.iws
-*.ipr
 
-# === Derlenmiş Java Dosyaları ===
+# ===============================
+# Derlenmiş Dosyalar
+# ===============================
 *.class
 *.jar
 *.war
 *.ear
 
-# === Maven & Gradle ===
+# ===============================
+# Build Klasörleri
+# ===============================
 target/
 build/
 
-# === Log Dosyaları ===
+# ===============================
+# Log ve Temp Dosyaları
+# ===============================
 *.log
-
-# === Geçici Dosyalar ve Sistem Dosyaları ===
 *.tmp
 *.swp
+
+# ===============================
+# Sistem Dosyaları (Mac / Windows)
+# ===============================
 .DS_Store
 Thumbs.db
 
-# === Örnek Özel XML Ayar Dosyaları (İstersen) ===
+# ===============================
+# Örnek Kişisel Ayar Dosyaları
+# ===============================
 uiDesigner.xml
 vcs.xml
 jpa-buddy.xml

@@ -21,6 +21,7 @@ public class _10_Understanding_Arrays {
         System.out.println(numbs);
 
 
+
     }
 
 }
