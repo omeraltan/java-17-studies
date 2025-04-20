@@ -1,0 +1,23 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ðÜ°§
+[
+java:S2259""@A "NullPointerException" could be thrown; "fr" is nullable here.(¯õâÇùÿÿÿÿ
+c
+java:S2095
+"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(äÕØðûÿÿÿÿ
+B
+java:S1481
+"'Remove this unused "fw" local variable.(äÕØðûÿÿÿÿ
+_
+java:S2147"DCombine this catch with the one at line 24, which has the same body.(­ÄÌÞþÿÿÿÿ
+_
+java:S2147"DCombine this catch with the one at line 26, which has the same body.(‹¦ˆ”ùÿÿÿÿ
+Z
+java:S2147"DCombine this catch with the one at line 29, which has the same body.(Ìœð–
+^
+java:S2677"HUse or store the value returned from "read" instead of throwing it away.(Ï÷»§
+>	java:S108")Either remove or fill this block of code.(‹±ÃÆ
+C	java:S108")Either remove or fill this block of code.(‹¦ˆ”ùÿÿÿÿ
+>	java:S108")Either remove or fill this block of code.(Ìœð–
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

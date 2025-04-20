@@ -1,0 +1,15 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ĞĞúÿÿÿÿ8´›»†2
+w
+java:S3740"/Provide the parametrized type for this generic.(–æ­áøÿÿÿÿ8¤¤†2J$1a6120c2-0351-474a-9389-6bd26659b663
+w
+java:S3740"/Provide the parametrized type for this generic.(–æ­áøÿÿÿÿ8¤¤†2J$2cfe6f7e-1282-4b2b-a935-4afe2ed27927
+‰
+java:S1854"ARemove this useless assignment to local variable "numberGeneric".(à«ñÎúÿÿÿÿ8†ø¤†2J$bbe25366-ca07-4e72-840a-72a092ce5bc2
+
+java:S1854"=Remove this useless assignment to local variable "numberGet".(Ğ÷Â,8†ø¤†2J$2c788ed8-3fcb-423a-9368-f9613f921b57
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(š¨¯Ùÿÿÿÿÿ8¼œ¤†2J$1520b474-0f28-4141-84a1-a86a7fbd568f
+p
+java:S1481".Remove this unused "numberGet" local variable.(Ğ÷Â,8‡ø¤†2J$e90a89db-2911-4afc-a488-31a9ac1209f1
+z
+java:S1481"2Remove this unused "numberGeneric" local variable.(à«ñÎúÿÿÿÿ8‡ø¤†2J$e0fff2dd-0ac0-4a9c-9e0d-2e32e531a39c

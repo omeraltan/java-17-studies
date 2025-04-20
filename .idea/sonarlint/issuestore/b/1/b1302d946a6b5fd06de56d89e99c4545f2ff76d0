@@ -1,0 +1,11 @@
+
+r
+java:S1197"*Move the array designators [] to the type.(В┴Е├№    8Ёзы╘Г2J$4b2b8245-b543-44d5-b2c2-68523f90727c
+Г
+java:S1854"@Remove this useless assignment to local variable "oneDimension".(ОїОЪ8Ёзы╘Г2J$a531507d-866c-4324-a0a7-14992527e1a3
+Г
+java:S1854";Remove this useless assignment to local variable "myArray".(╙оЪй√    8Ёзы╘Г2J$0f68f36d-97f2-4ee7-b0da-d6c7ead7af83
+t
+java:S1481",Remove this unused "myArray" local variable.(╙оЪй√    8Ёзы╘Г2J$130bb00b-4b5a-4c46-a4b0-da5ec0794de4
+t
+java:S1481"1Remove this unused "oneDimension" local variable.(ОїОЪ8Ёзы╘Г2J$8197bb4c-5f28-4b99-a7e3-f22c69fd7d68

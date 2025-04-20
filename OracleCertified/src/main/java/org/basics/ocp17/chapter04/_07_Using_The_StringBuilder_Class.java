@@ -17,7 +17,7 @@ public class _07_Using_The_StringBuilder_Class {
 
         System.out.println("----------");
         StringBuilder sb1 = new StringBuilder();            // -> Sadece boş bir constructor kullanılıyor.
-        StringBuilder sb2 = new StringBuilder("animal");    // -> Nesne için bir başlatma değerei verilmektedir.
+        StringBuilder sb2 = new StringBuilder("animal");    // -> Nesne için bir başlatma değeri verilmektedir.
         StringBuilder sb3 = new StringBuilder(10);  // -> Bu nesnenin kapasitesi belirlenmektedir.
 
         System.out.println("----------");

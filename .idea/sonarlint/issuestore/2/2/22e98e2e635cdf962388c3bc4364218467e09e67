@@ -1,0 +1,14 @@
+
+p
+java:S1604&"(Make this anonymous inner class a lambda(äë¬±üÿÿÿÿ8ıÇéó†2J$47b15da8-49ad-4aaa-9650-fc7d21184ea3
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆúŠÍ8şÇéó†2J$13c3da6d-eb8c-4f10-8565-aa181fe416c0
+‡
+java:S1854."?Remove this useless assignment to local variable "myInterface".(‡Ù‡üÿÿÿÿ8„Èéó†2J$99aff3f0-6f02-4031-b05a-da91368209f3
+„
+java:S1854&"<Remove this useless assignment to local variable "runnable".(äë¬±üÿÿÿÿ8„Èéó†2J$e6f20964-99d4-4fc1-869d-e303e8f02000
+Ä
+java:S1186)"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“–ış8‰Èéó†2J$edc7f5fe-d76a-4177-85ae-eda07935b2ff
+u
+java:S1481&"-Remove this unused "runnable" local variable.(äë¬±üÿÿÿÿ8ŠÈéó†2J$0143506f-7b4b-42af-962a-8edcf88fbc44
+x
+java:S1481."0Remove this unused "myInterface" local variable.(‡Ù‡üÿÿÿÿ8ŠÈéó†2J$a388f0e3-97ae-4bf5-ad13-cd6ebd913d53

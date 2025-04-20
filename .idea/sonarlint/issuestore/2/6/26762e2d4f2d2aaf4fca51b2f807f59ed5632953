@@ -1,0 +1,18 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆúŠÍ8šãŽò†2J$7a9772c4-906b-4f03-988a-1cad11c6eb54
+ˆ
+java:S1854!"@Remove this useless assignment to local variable "staticNested".(ÀÜ¤ûÿÿÿÿÿ8þ¼‘ò†2J$1340f169-910a-4fb6-9ca6-d8c465108cfe
+‚
+java:S1854":Remove this useless assignment to local variable "inner2".(òÃ¾«þÿÿÿÿ8ŸãŽò†2J$4eb4c413-4594-4a43-8967-70dfe45c4971
+s
+java:S1481"+Remove this unused "inner2" local variable.(òÃ¾«þÿÿÿÿ8 ãŽò†2J$00fb9a6b-3249-4182-a8f9-130053c21d55
+y
+java:S1481!"1Remove this unused "staticNested" local variable.(ÀÜ¤ûÿÿÿÿÿ8íã¥ò†2J$3682cd10-e190-4e7c-bc66-e292ca816f8a
+Ä
+java:S1186-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘8¡ãŽò†2J$8ed7bc70-3499-4c8f-bf99-c734927bfbe0
+y
+java:S1068	"1Remove this unused "compilerError" private field.(õ§ƒóÿÿÿÿÿ8Âç·ò†2J$327377dd-bd01-4280-8f76-5b581b33e8f0
+j
+java:S1068"(Remove this unused "name" private field.(“ÁªE8àÕÑÍ‡2J$51f587eb-09cc-4d89-a486-2d8cc71e9d23
+q
+java:S1068".Remove this unused "staticName" private field.(ÍÂ†è8Â­¼ò†2J$14a66b94-b492-4202-b72a-e3a4c36a818d

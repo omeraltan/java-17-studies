@@ -1,0 +1,7 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥ÛÎ¼üÿÿÿÿ
+\	java:S899"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ
+d
+java:S4042"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(—ºÒÄ
+c
+java:S4042"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(Š“

@@ -1,0 +1,17 @@
+
+v
+java:S1121<".Extract the assignment out of this expression.(´Ü‡ıÿÿÿÿ8Şæ‘¤„2J$c189f3e7-4850-4d0c-95fb-d653ceaea10d
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é¼ø¾8ÏŸ¸İ‡2
+‹
+java:S2583B"CChange this condition so that it does not always evaluate to "true"(è¢ûÈúÿÿÿÿ8Şæ‘¤„2J$d0a834b5-dc85-4e61-a2aa-10bd7e6218c9
+‹
+java:S2583<"CChange this condition so that it does not always evaluate to "true"(´Ü‡ıÿÿÿÿ8Şæ‘¤„2J$83eb1a51-b71f-4f22-8cac-d2d1a31bc2d5
+Œ
+java:S1192="IDefine a constant instead of duplicating this literal "if works" 3 times.(é­»8ßæ‘¤„2J$7a1edbd0-016a-426e-9f57-14ae8c9d3163
+Š
+java:S2094"BRemove this empty class, write its code or make it an "interface".(ğ™Ãßıÿÿÿÿ8àæ‘¤„2J$43a94b28-f358-49fa-9a05-51df9e638103
+x
+java:S1854""5Remove this useless assignment to local variable "i".(ÅÑ÷8áæ‘¤„2J$c4c99bc1-eb0d-42bc-a16f-7de2f3c45913
+~	java:S125"<This block of commented-out lines of code should be removed.(ÉŠÜÊ8âæ‘¤„2J$94f39d09-7d67-45f8-998e-b58d17bc9834
+‡
+java:S3358("DExtract this nested ternary operation into an independent statement.( üÕ8óÊ–¤„2J$bd0565ab-b0a4-4b1d-8d8d-7f5b22fd2d03

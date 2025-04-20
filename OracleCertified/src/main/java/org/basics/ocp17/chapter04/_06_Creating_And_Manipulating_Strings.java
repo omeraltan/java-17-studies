@@ -20,6 +20,5 @@ public class _06_Creating_And_Manipulating_Strings {
 /**
  *
  * 1. Method Chaining : Methodların zincirleme şeklinde arka arkaya çağırılmasıdır.
- * 2.
  *
  */

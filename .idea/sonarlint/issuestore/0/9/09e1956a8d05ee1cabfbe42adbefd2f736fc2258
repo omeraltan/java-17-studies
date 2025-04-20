@@ -1,0 +1,17 @@
+
+~
+java:S1854>";Remove this useless assignment to local variable "number2".(ÓÛÆí8¢¼¶Ä„2J$ac08e2ee-d932-412e-92c9-d9efc1f43b52
+ƒ
+java:S1854?";Remove this useless assignment to local variable "number3".(Ï°í®þÿÿÿÿ8¢¼¶Ä„2J$8b3dd915-6355-42dd-9d87-1c1653dffaf8
+g
+java:S1659A"Declare "x" on a separate line.(ÌìýÀûÿÿÿÿ8¢¼¶Ä„2J$195bcf96-f4bc-4832-8756-b6a7cfd07799
+t
+java:S1481<",Remove this unused "number2" local variable.(§àñžýÿÿÿÿ8¢¼¶Ä„2J$976eaaa8-df9b-4894-8044-777696867d6e
+t
+java:S1481?",Remove this unused "number3" local variable.(Ï°í®þÿÿÿÿ8¢¼¶Ä„2J$9384eebc-c715-41e0-ba99-79411d11a7a9
+t
+java:S1481A",Remove this unused "number4" local variable.(ÌìýÀûÿÿÿÿ8¢¼¶Ä„2J$d76d5c9f-0044-4c91-bf68-6c2c4c4cbd4f
+y
+java:S5261F"1Add explicit curly braces to avoid dangling else.(„¶áìøÿÿÿÿ8¢¼¶Ä„2J$56c6ce99-1194-4cfd-8266-546697c90fc6
+k	java:S108W")Either remove or fill this block of code.(ö‹¿Á8¤¼¶Ä„2J$d4690cda-d235-4680-91b7-ffec8c175e51
+k	java:S108]")Either remove or fill this block of code.(÷Èšé8¡à·Ä„2J$2b92c94a-c5d3-411d-b9be-4b69a727f592

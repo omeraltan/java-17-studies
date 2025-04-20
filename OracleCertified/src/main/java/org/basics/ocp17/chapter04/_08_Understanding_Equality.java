@@ -24,7 +24,7 @@ public class _08_Understanding_Equality {
         System.out.println(sb1.equals(sb2));                        // -> false
 
         System.out.println(sb1.toString() == sb2.toString());       // -> false
-        System.out.println(sb1 .toString().equals(sb2));            // -> false
+        System.out.println(sb1.toString().equals(sb2));            // -> false
         System.out.println(sb1.toString().equals(sb2.toString()));  // -> true
 
 
@@ -39,6 +39,5 @@ public class _08_Understanding_Equality {
  * 2. "equals()" methodu mantıksal olarak denklik logical equality yaklaşımını kullanmaktadır.
  * 3. Object sınıfındaki equals() methodu == ile aynı çalışır iki objenin aynı olup olmadığına bakar.
  * 4. StringBuilder Object sınıfındaki equals() methodunu override etmemiştir ancak String sınıfı Object sınıfındaki equals() methodunu overri etmiştir.
- * 5.
  *
  */

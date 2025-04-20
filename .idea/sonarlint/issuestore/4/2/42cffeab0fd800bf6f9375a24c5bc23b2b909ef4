@@ -1,0 +1,6 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼Ùşÿÿÿÿ
+W
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ì©úÿÿÿÿ
+R
+java:S4973"<Strings and Boxed types should be compared using "equals()".(â…Ş

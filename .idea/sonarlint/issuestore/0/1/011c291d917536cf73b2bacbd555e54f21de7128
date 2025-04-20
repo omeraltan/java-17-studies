@@ -1,0 +1,12 @@
+
+…
+java:S2094"BRemove this empty class, write its code or make it an "interface".(ŒÕ…8øğ­¥ƒ2J$e8f58e12-a595-4c2f-9ab7-a5cc11261577
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¶­ˆ«8øğ­¥ƒ2J$1bd15e56-4375-4d44-baf5-c1a33c57c351
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘ø³Ş8øğ­¥ƒ2J$5620cad4-6878-48f7-9907-75cac0fc2ec6
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(û°ûÏüÿÿÿÿ8øğ­¥ƒ2J$72e71e10-e03f-46f3-9817-5ad7bff45a19
+›	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†ê×T8øğ­¥ƒ2J$18a4aedb-bb3c-43c4-92fd-7b4fa8875ec7
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(›àûìıÿÿÿÿ8øğ­¥ƒ2J$f956632c-e371-400f-b8ac-57e092bc5859
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(‘ø³Ş8úğ­¥ƒ2J$1508ccf2-da63-4829-9533-a15f5e58d1e8
+ˆ
+java:S1124 "EReorder the modifiers to comply with the Java Language Specification.(ÇÔ±©8úğ­¥ƒ2J$12e75389-6cdf-493f-944d-ad40e1210d3d

@@ -1,0 +1,20 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆúŠÍ8Õî“Î‡2J$7eecb0a7-94f7-455e-9c4c-7b756a6bb47d
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(åÜİº8„Ë˜Î‡2J$8f0a1e19-021a-4e58-8857-f156cbc3de01
+j
+java:S1144"'Remove this unused private "t1" method.(åÜİº8…Ë˜Î‡2J$8aae9545-0d0a-4f62-9588-3bce572221c4
+|
+java:S1854":Remove this useless assignment to local variable "inner3".(™š®D8Øî“Î‡2J$edb5ba14-51e3-4818-b10f-6b5b01449cca
+‚
+java:S1854":Remove this useless assignment to local variable "inner2".(ÙÈêìùÿÿÿÿ8Øî“Î‡2J$b16e5cc8-192c-4bfe-b170-a5ab234f5252
+
+java:S1854"9Remove this useless assignment to local variable "inner".(’óÓãÿÿÿÿÿ8Øî“Î‡2J$f0dc21fa-73f1-4122-a0dc-6a97c7db1b76
+r
+java:S1481"*Remove this unused "inner" local variable.(’óÓãÿÿÿÿÿ8Ùî“Î‡2J$2501be2b-c133-44ee-8f03-40f145bbb1c6
+s
+java:S1481"+Remove this unused "inner2" local variable.(ÙÈêìùÿÿÿÿ8Ùî“Î‡2J$1d1a9af1-48b4-4d79-89f7-2bde94e2121f
+m
+java:S1481"+Remove this unused "inner3" local variable.(™š®D8Ùî“Î‡2J$7a82e406-7b1e-43bd-b4e2-18933afc9e77
+
+java:S1068"7Remove this unused "privateStaticNumber" private field.(ÛİÌõûÿÿÿÿ8Ùî“Î‡2J$9a10267e-b9f6-4cbe-ab2c-68d85313dc4b

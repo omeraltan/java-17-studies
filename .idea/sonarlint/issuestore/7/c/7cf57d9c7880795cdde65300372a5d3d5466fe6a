@@ -1,0 +1,22 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ê²‡†úÿÿÿÿ8­›ž»†2
+
+java:S4973	"<Strings and Boxed types should be compared using "equals()".(³×¦‡8µÿà”†2J$adfe69a5-d905-4a8f-9a50-d5a40497078b
+¢
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í÷é¾8¶ÿà”†2J$87a87697-fe48-4bd4-937d-d3a18083a962
+§
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(²äÜøÿÿÿÿ8¶ÿà”†2J$54ba8c58-8556-4046-804f-f3224a79d647
+i
+java:S2129"!Remove this "Integer" constructor(Ì’Ðóýÿÿÿÿ8·ÿà”†2J$5878b3ce-690a-448a-a17a-714926806780
+
+java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(Ì’Ðóýÿÿÿÿ8·ÿà”†2J$238beb7b-f15a-43f7-8bf9-15716ac264cd
+i
+java:S2129"!Remove this "Integer" constructor(ÉöÝŠüÿÿÿÿ8·ÿà”†2J$63c78d1e-0dd8-4fcc-959b-8e25a0270cc3
+
+java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(ÉöÝŠüÿÿÿÿ8¸ÿà”†2J$043bbbd1-d23a-49da-9707-f3815e2f644c
+a
+java:S2129"Remove this "Long" constructor(íŸÊµ8»ÿà”†2J$62decaab-1aef-444d-a611-037334ed3405
+‹
+java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(íŸÊµ8»ÿà”†2J$88849788-eb21-409d-b6a4-b199c13d628a
+™
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(Ä ±8½ÿà”†2J$dba627c0-a2af-4cb4-bcf0-5a6443e986b3

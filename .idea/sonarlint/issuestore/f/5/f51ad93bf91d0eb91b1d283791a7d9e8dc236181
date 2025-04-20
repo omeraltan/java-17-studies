@@ -1,0 +1,22 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğÉî¸
+R
+java:S4973	"<Strings and Boxed types should be compared using "equals()".(³×¦‡
+u
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(í÷é¾
+z
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(²äÜøÿÿÿÿ
+<
+java:S2129"!Remove this "Integer" constructor(Ì’Ğóıÿÿÿÿ
+c
+java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(Ì’Ğóıÿÿÿÿ
+<
+java:S2129"!Remove this "Integer" constructor(ÉöİŠüÿÿÿÿ
+c
+java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(ÉöİŠüÿÿÿÿ
+4
+java:S2129"Remove this "Long" constructor(íŸÊµ
+^
+java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(íŸÊµ
+l
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(Ä ±

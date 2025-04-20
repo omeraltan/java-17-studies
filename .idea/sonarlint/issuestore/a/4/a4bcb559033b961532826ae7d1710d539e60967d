@@ -1,0 +1,6 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦®ûêýÿÿÿÿ
+n
+java:S1104"XMake publicNumber a static final constant or non-public and provide accessors if needed.(Ÿ‘÷ì
+L
+java:S1068"1Remove this unused "privateNumber" private field.(ÑÃå¬ùÿÿÿÿ

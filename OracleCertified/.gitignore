@@ -1,0 +1,29 @@
+# IDE dosyaları
+.idea/
+*.iml
+.vscode/
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# Derlenmiş dosyalar
+*.class
+*.jar
+*.war
+
+# Log dosyaları
+*.log
+
+# Temp dosyalar
+tmp/
+*.tmp
+
+# Maven hedef klasörü
+target/
+
+# Node.js
+node_modules/
+
+# Kendi özel dosyan
+config/local.properties

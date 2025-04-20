@@ -1,0 +1,12 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿¨µ¤øÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(üá‰¬øÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨ßÎƒ
+X
+java:S2094"BRemove this empty class, write its code or make it an "interface".(È’ô‰
+U
+java:S1854"?Remove this useless assignment to local variable "sparrowList".(¨ßÎƒ
+F
+java:S1481"0Remove this unused "sparrowList" local variable.(¨ßÎƒ

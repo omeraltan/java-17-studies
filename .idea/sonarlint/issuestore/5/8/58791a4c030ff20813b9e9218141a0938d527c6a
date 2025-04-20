@@ -1,0 +1,16 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±©ƒ–
+q
+java:S1192"[Define a constant instead of duplicating this literal "--------------------------" 3 times.(ú•€Ë
+b
+java:S1192"GDefine a constant instead of duplicating this literal "key : " 3 times.(ıÿİ¨øÿÿÿÿ
+g
+java:S1192"LDefine a constant instead of duplicating this literal " , value : " 3 times.(ıÿİ¨øÿÿÿÿ
+_
+java:S4143"DVerify this is the key that was intended; it was already set before.(³äÙıÿÿÿÿÿ
+_
+java:S4143!"DVerify this is the key that was intended; it was already set before.(¨Ææñùÿÿÿÿ
+J
+java:S2864"4Iterate over the "entrySet" instead of the "keySet".(§µÊ·
+J
+java:S28642"4Iterate over the "entrySet" instead of the "keySet".(…ÌÌÈ

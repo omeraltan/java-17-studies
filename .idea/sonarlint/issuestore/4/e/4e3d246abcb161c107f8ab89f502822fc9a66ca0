@@ -1,0 +1,16 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õáøùÿÿÿÿ8¼›»†2
+
+java:S1192"[Define a constant instead of duplicating this literal "--------------------------" 3 times.(ú•€Ë8í‘÷Ÿ†2J$ed9ef5cc-ac8d-40a9-9094-13631b40249c
+
+java:S1192"GDefine a constant instead of duplicating this literal "key : " 3 times.(ıÿİ¨øÿÿÿÿ8½°éŸ†2J$2da62657-8a13-4536-8a64-6296645e7f17
+”
+java:S1192"LDefine a constant instead of duplicating this literal " , value : " 3 times.(ıÿİ¨øÿÿÿÿ8½°éŸ†2J$d091e95e-feb9-4255-94d4-dd3391efe576
+Œ
+java:S4143"DVerify this is the key that was intended; it was already set before.(³äÙıÿÿÿÿÿ8ªÈâŸ†2J$d73ef902-bb86-451f-b582-db9753aac378
+Œ
+java:S4143!"DVerify this is the key that was intended; it was already set before.(¨Ææñùÿÿÿÿ8ªÈâŸ†2J$f3cf2a9b-5395-42d1-9a7a-0be560113735
+w
+java:S2864"4Iterate over the "entrySet" instead of the "keySet".(§µÊ·8¬ÈâŸ†2J$b7b4c571-366f-4c1a-91fc-c39fc64eba8b
+w
+java:S28642"4Iterate over the "entrySet" instead of the "keySet".(…ÌÌÈ8”÷òŸ†2J$9916922e-b701-41c7-bb99-39d95da96c13
