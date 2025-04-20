@@ -1,29 +1,29 @@
-# IDE dosyaları
+# === IntelliJ IDEA Ayarları ===
 .idea/
 *.iml
-.vscode/
+*.iws
+*.ipr
 
-# İşletim sistemi dosyaları
-.DS_Store
-Thumbs.db
-
-# Derlenmiş dosyalar
+# === Derlenmiş Java Dosyaları ===
 *.class
 *.jar
 *.war
+*.ear
 
-# Log dosyaları
+# === Maven & Gradle ===
+target/
+build/
+
+# === Log Dosyaları ===
 *.log
 
-# Temp dosyalar
-tmp/
+# === Geçici Dosyalar ve Sistem Dosyaları ===
 *.tmp
+*.swp
+.DS_Store
+Thumbs.db
 
-# Maven hedef klasörü
-target/
-
-# Node.js
-node_modules/
-
-# Kendi özel dosyan
-config/local.properties
+# === Örnek Özel XML Ayar Dosyaları (İstersen) ===
+uiDesigner.xml
+vcs.xml
+jpa-buddy.xml
