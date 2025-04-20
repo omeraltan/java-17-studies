@@ -1,0 +1,15 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ĞĞúÿÿÿÿ8™œ»†2
+¡
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(äŞèÆùÿÿÿÿ8òıî¤†2J$7be0ff6b-b121-4d94-a70c-c4c509b7f0b4
+„
+java:S2094"BRemove this empty class, write its code or make it an "interface".(ıÕ¶T8óıî¤†2J$d0afdd08-3e0a-4e3e-8d70-4179bd471651
+ˆ
+java:S1854"@Remove this useless assignment to local variable "listAnimalV2".(ìçÇëøÿÿÿÿ8¥‘ò¤†2J$ab775291-ea83-45ad-a7ed-ec0fae078ddc
+…
+java:S1854"=Remove this useless assignment to local variable "animalRef".(³ÂîÑùÿÿÿÿ8Ò¹ñ¤†2J$eec70c38-691f-4122-bce5-6421e69b2504
+v
+java:S1481".Remove this unused "animalRef" local variable.(³ÂîÑùÿÿÿÿ8Ó¹ñ¤†2J$41b98fcf-108d-4114-ae7d-a44070d384aa
+~	java:S125"<This block of commented-out lines of code should be removed.(™êÁı8õıî¤†2J$76f2e0cc-b11d-4f1b-937a-a22b3d301d11
+y
+java:S1481"1Remove this unused "listAnimalV2" local variable.(ìçÇëøÿÿÿÿ8¦‘ò¤†2J$3d9d74ff-c93c-4236-be5d-c9030f0d22c7

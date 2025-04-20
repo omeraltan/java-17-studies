@@ -1,0 +1,15 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿¨µ¤øÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(äÞèÆùÿÿÿÿ
+W
+java:S2094"BRemove this empty class, write its code or make it an "interface".(ýÕ¶T
+[
+java:S1854"@Remove this useless assignment to local variable "listAnimalV2".(ìçÇëøÿÿÿÿ
+X
+java:S1854"=Remove this useless assignment to local variable "animalRef".(³ÂîÑùÿÿÿÿ
+I
+java:S1481".Remove this unused "animalRef" local variable.(³ÂîÑùÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(™êÁý
+L
+java:S1481"1Remove this unused "listAnimalV2" local variable.(ìçÇëøÿÿÿÿ

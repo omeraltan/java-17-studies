@@ -1,0 +1,6 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼Ùşÿÿÿÿ
+@
+java:S2201"*The return value of "concat" must be used.(ßµ¬¤
+E
+java:S2201"/The return value of "toUpperCase" must be used.(œ–›Š

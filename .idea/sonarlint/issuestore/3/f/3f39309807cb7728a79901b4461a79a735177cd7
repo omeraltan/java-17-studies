@@ -1,0 +1,16 @@
+
+r
+java:S1144"*Remove this unused private "reset" method.(¤¹§çúÿÿÿÿ8©´›³ƒ2J$f16cbf6b-8df5-4da9-9903-102d41ac04b4
+t
+java:S2387"1"processor" is the name of a field in "Computer".(€8ª´›³ƒ2J$1eb85efb-0773-4c83-9127-9ca6e9e48bbf
+r
+java:S1144!"*Remove this unused private "reset" method.(¤¹§çúÿÿÿÿ8«´›³ƒ2J$4ec64b7e-2dee-4b15-89bb-a384670ab31a
+‚
+java:S1161":Add the "@Override" annotation above this method signature(Ç÷ö½üÿÿÿÿ8«´›³ƒ2J$e9538721-6b6c-4964-b99c-a09de5422e9f
+Ÿ
+java:S2177!"WRename this method; there is a "private" method in the parent class with the same name.(¤¹§çúÿÿÿÿ8«´›³ƒ2J$af662567-d823-4b75-8d94-e89390fcb471
+~	java:S125$"<This block of commented-out lines of code should be removed.(ªâşÌ8«ñ¡³ƒ2J$1bfd8502-8b45-4d5b-9c60-cd420312e0dd
+}
+java:S22092"5Change this instance-reference to a static reference.(åÂâÀùÿÿÿÿ8ÏÊº³ƒ2J$71685071-45d2-4aa8-844e-fa0592b5182d
+}
+java:S22095"5Change this instance-reference to a static reference.(¡Ú„ÿÿÿÿÿÿ8¸¼Æ³ƒ2J$20d560bb-7ee8-4f30-b12a-846614593d8b

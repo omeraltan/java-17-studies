@@ -1,0 +1,8 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰÷Ô”þÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(‰†ã»
+Q	java:S125"<This block of commented-out lines of code should be removed.(‰†ã»
+P
+java:S1854"5Remove this useless assignment to local variable "d".(ã²¶òøÿÿÿÿ
+A
+java:S1481"&Remove this unused "d" local variable.(ã²¶òøÿÿÿÿ

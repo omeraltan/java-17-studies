@@ -1,0 +1,16 @@
+
+v
+java:S1121<".Extract the assignment out of this expression.(´Ü‡ıÿÿÿÿ8Şæ‘¤„2J$d16c54f7-3204-4fbc-94e4-519d9c01c96e
+‹
+java:S2583B"CChange this condition so that it does not always evaluate to "true"(è¢ûÈúÿÿÿÿ8Şæ‘¤„2J$76a6012a-3d60-4787-b24f-01e5966343f3
+‹
+java:S2583<"CChange this condition so that it does not always evaluate to "true"(´Ü‡ıÿÿÿÿ8Şæ‘¤„2J$aeb35d3b-4d3d-4b0e-b9b9-41be595fa2c2
+Œ
+java:S1192="IDefine a constant instead of duplicating this literal "if works" 3 times.(é­»8ßæ‘¤„2J$37c74080-36c2-4e97-9d95-0a12ccdd3644
+Š
+java:S2094"BRemove this empty class, write its code or make it an "interface".(ğ™Ãßıÿÿÿÿ8àæ‘¤„2J$fef35f7b-d64d-4808-ab61-855d35049e88
+x
+java:S1854""5Remove this useless assignment to local variable "i".(ÅÑ÷8áæ‘¤„2J$6e55ed80-e941-4ae5-bc68-2ab2a43d4e37
+~	java:S125"<This block of commented-out lines of code should be removed.(ÉŠÜÊ8âæ‘¤„2J$29c4fa62-4bd5-4f94-937b-abadf1e1d606
+‡
+java:S3358("DExtract this nested ternary operation into an independent statement.( üÕ8óÊ–¤„2J$a91ca881-9d72-4b8d-9706-d492d1481954

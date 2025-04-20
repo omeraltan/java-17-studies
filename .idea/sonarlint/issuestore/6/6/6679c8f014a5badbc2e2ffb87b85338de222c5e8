@@ -1,0 +1,18 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ĞĞúÿÿÿÿ8¾¬„º†2J$d7e2f31c-6510-4fe4-a8f9-f9a312dc11d8
+¡
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿİêºüÿÿÿÿ8¾¬„º†2J$cf2ff921-98ea-4c67-a40d-08f14ebe7a74
+œ
+java:S2293""YReplace the type specification in this constructor call with the diamond operator ("<>").(Ô×Ìİ8¾¬„º†2J$c7825983-eb83-48e5-adf0-2036f56a0d28
+œ
+java:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(Œìæ´8¾¬„º†2J$8cd72923-fe42-4b36-9d60-478a6ccf0613
+¡
+java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(—†ÚÌşÿÿÿÿ8¾¬„º†2J$3e1a1ee1-ad11-4615-8052-db8237e667f3
+É
+java:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨œÎµøÿÿÿÿ8¿¬„º†2J$2fe1a0f4-3a97-4df8-a44f-864ab9ce5f88
+ƒ
+java:S1854$";Remove this useless assignment to local variable "amgList".(—†ÚÌşÿÿÿÿ8À¬„º†2J$b4dd666d-2a7a-4876-bf1a-dc47e3c3b909
+t
+java:S1481$",Remove this unused "amgList" local variable.(—†ÚÌşÿÿÿÿ8Á¬„º†2J$d8819bba-7d02-400f-805a-53781211580e
+q
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8„Ã’º†2J$59426ca1-5868-4c55-b02c-405654223b81

@@ -1,0 +1,17 @@
+
+€
+java:S1854"=Remove this useless assignment to local variable "finalName".(ÚŸÎÜ8—þå§ƒ2J$c13264d3-3c75-428b-8c2f-136ecda7a249
+{
+java:S1854
+"8Remove this useless assignment to local variable "name".(¨å±á8ó­æ§ƒ2J$e0467930-aa77-4ca7-9d16-4f77cf468569
+l
+java:S1481
+")Remove this unused "name" local variable.(¨å±á8ó­æ§ƒ2J$8331b8af-c9ff-45f3-a0a2-7071323259ea
+q
+java:S1481".Remove this unused "finalName" local variable.(ÚŸÎÜ8—þå§ƒ2J$80bec2a7-26ce-4982-91c3-cebb6def6e6a
+~	java:S125"<This block of commented-out lines of code should be removed.(ãÏšÔ8ÃÇú§ƒ2J$35e90d5a-2b6f-41ec-b328-cd35418f73c0
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ÆÌºòûÿÿÿÿ8üÀü§ƒ2J$e1cee8c0-a4c9-49b3-8851-50e7c2b3136d
+u
+java:S1068"-Remove this unused "firstName" private field.(½È®Îÿÿÿÿÿ8 ©Ü§ƒ2J$e5ea571c-289b-4b9d-9de4-bdcb06fbb98b
+o
+java:S1068",Remove this unused "lastName" private field.(„Š§Í8úòß§ƒ2J$1a9613b2-fefd-4555-b30a-0afaa068030a

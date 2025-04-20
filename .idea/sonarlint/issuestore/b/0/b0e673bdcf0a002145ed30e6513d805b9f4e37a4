@@ -1,0 +1,16 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öâ²æøÿÿÿÿ8ù“¸İ‡2
+}
+java:S1161
+":Add the "@Override" annotation above this method signature(¥©°«8ÍÍŠ¶ƒ2J$440ecc92-3acf-48c5-a1cf-8a0b95cf906a
+}
+java:S1161":Add the "@Override" annotation above this method signature(¥©°«8ÍÍŠ¶ƒ2J$4f2639f8-8a2f-4175-a271-de479e613bef
+‰
+java:S18544"FRemove this useless assignment to local variable "animalUpcastingDog".(ÍÔ“8ÍÍŠ¶ƒ2J$d1e93fa7-4a9d-436a-8267-aa86cfe27547
+
+java:S18541"=Remove this useless assignment to local variable "dogKangal".(†ş¿68ÍÍŠ¶ƒ2J$b59966af-509b-4b99-8c58-620227c29e4d
+ƒ	java:S125-"<This block of commented-out lines of code should be removed.(™ÁÉ«üÿÿÿÿ8ÎÍŠ¶ƒ2J$2c47015d-7f50-423b-aac0-2539010de468
+p
+java:S14811".Remove this unused "dogKangal" local variable.(†ş¿68ÎÍŠ¶ƒ2J$2cf6c4fe-902f-47d0-a4d7-a552cd208c37
+z
+java:S14814"7Remove this unused "animalUpcastingDog" local variable.(ÍÔ“8ÎÍŠ¶ƒ2J$706a46c5-dca8-4a18-a5af-c58f8043e1b1

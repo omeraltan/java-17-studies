@@ -1,0 +1,13 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”ùÅúÿÿÿÿ
+o
+java:S14882"YImmediately return this expression instead of assigning it to the temporary variable "c".(¡Á
+q
+java:S1488Q"\Immediately return this expression instead of assigning it to the temporary variable "list".(Ìö¼
+]
+java:S2094"BRemove this empty class, write its code or make it an "interface".(éò÷Ÿüÿÿÿÿ
+<
+java:S1168-"&Return an empty array instead of null.(¥¹ï
+V	java:S125C"<This block of commented-out lines of code should be removed.(ô·”âûÿÿÿÿ
+1
+java:S3626H"Remove this redundant jump.(ûÁİ…

@@ -1,0 +1,9 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æß«ûÿÿÿÿ8òš»†2
+
+java:S11921"FDefine a constant instead of duplicating this literal "Smith" 6 times.(¯İùûùÿÿÿÿ8ˆÜŞœ†2J$086c1700-1351-4508-bb2d-4994715efddc
+k
+java:S1068	"(Remove this unused "name" private field.(Ë¥¼8‹ÜŞœ†2J$7c6974ea-3014-4e3b-82d9-5fd810c2622c
+s
+java:S1068
+"+Remove this unused "surname" private field.(—‡¨åûÿÿÿÿ8‹ÜŞœ†2J$67e582d9-fdbf-4908-9ed5-f1b615d7425f

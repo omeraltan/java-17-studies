@@ -1,0 +1,15 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿¨µ¤øÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(–æ­áøÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(–æ­áøÿÿÿÿ
+\
+java:S1854"ARemove this useless assignment to local variable "numberGeneric".(à«ñÎúÿÿÿÿ
+R
+java:S1854"=Remove this useless assignment to local variable "numberGet".(Ð÷Â,
+V	java:S125"<This block of commented-out lines of code should be removed.(š¨¯Ùÿÿÿÿÿ
+C
+java:S1481".Remove this unused "numberGet" local variable.(Ð÷Â,
+M
+java:S1481"2Remove this unused "numberGeneric" local variable.(à«ñÎúÿÿÿÿ

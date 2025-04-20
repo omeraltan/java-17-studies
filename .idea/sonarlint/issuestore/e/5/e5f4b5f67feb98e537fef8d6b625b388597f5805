@@ -1,0 +1,8 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ıÌßğ
+c
+java:S1192"MDefine a constant instead of duplicating this literal "------------" 3 times.(áñÁ·
+F
+java:S6035!"0Replace this alternation with a character class.(÷àî
+F
+java:S6035)"0Replace this alternation with a character class.(×ïÌ½

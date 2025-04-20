@@ -1,0 +1,15 @@
+
+…
+java:S2094"BRemove this empty class, write its code or make it an "interface".(ÿ±ÃÛ8Îô‡Îƒ2J$0333cf2c-01c3-453d-ad1b-563e285a6701
+}
+java:S1854":Remove this useless assignment to local variable "number".(Ñ¿Áæ8£š˜Îƒ2J$52294596-4af4-4f28-90f9-44fb64162392
+~
+java:S1854";Remove this useless assignment to local variable "person2".(¼ˆÈ¢8„¨Îƒ2J$8eb042ad-2d88-4942-be47-4288d77763da
+~
+java:S1854
+";Remove this useless assignment to local variable "person2".(Ë¯8äâŒÎƒ2J$eaeac041-5a49-459d-9b86-5192e24e4483
+o
+java:S1481
+",Remove this unused "person2" local variable.(Ë¯8åâŒÎƒ2J$182cef51-dd7e-4eb1-9fbf-b70de5bfa184
+n
+java:S1481"+Remove this unused "number" local variable.(Ñ¿Áæ8¤š˜Îƒ2J$52254586-aec0-4d00-8ae9-75044dd07293

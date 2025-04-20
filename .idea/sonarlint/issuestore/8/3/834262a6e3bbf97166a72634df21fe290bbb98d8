@@ -1,0 +1,17 @@
+
+Š
+java:S2094"BRemove this empty class, write its code or make it an "interface".(ð™Ãßýÿÿÿÿ8žá’¹ƒ2J$4c294f1b-d4fb-4f6d-a21f-924a2f0a81b6
+…
+java:S1854*"=Remove this useless assignment to local variable "computer2".(ËÈ¨õüÿÿÿÿ8…â™¹ƒ2J$8d48d0af-8bfd-4127-b201-e4af4eab8f73
+„
+java:S1854)"<Remove this useless assignment to local variable "computer".(¨êÝÿÿÿÿÿ8å¡”¹ƒ2J$119a8d11-3bef-4b26-8a6b-74f9a29a5d22
+z
+java:S1854'"7Remove this useless assignment to local variable "car".(”‘Ü¬8Ÿá’¹ƒ2J$f752daaf-97be-46c2-8382-1849b84fb810
+k
+java:S1481'"(Remove this unused "car" local variable.(”‘Ü¬8Ÿá’¹ƒ2J$831ce9b6-f984-422c-a459-18f313eb5aac
+u
+java:S1481)"-Remove this unused "computer" local variable.(¨êÝÿÿÿÿÿ8Ÿá’¹ƒ2J$f8df93ce-c74c-4c93-bcd5-1c5171993e38
+v
+java:S1481*".Remove this unused "computer2" local variable.(ËÈ¨õüÿÿÿÿ8†â™¹ƒ2J$246dc537-dae7-416d-9766-192af2a5c867
+p
+java:S1068"-Remove this unused "firstName" private field.(š„¦¿8 á’¹ƒ2J$6903243a-7573-484b-9816-a11368e64faf

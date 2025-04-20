@@ -1,0 +1,22 @@
+
+ˆ
+java:S2259""@A "NullPointerException" could be thrown; "fr" is nullable here.(¯õâÇùÿÿÿÿ8„Ò·É„2J$ca4120ba-7a67-41ed-9fe6-115e2c05b937
+
+java:S2095
+"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(äÕØğûÿÿÿÿ8áÚ´É„2J$ba40154b-a4ae-4479-8d92-1f3af0ba982e
+o
+java:S1481
+"'Remove this unused "fw" local variable.(äÕØğûÿÿÿÿ8ãÚ´É„2J$1998cf24-b15d-4383-a3b5-2eea976821a1
+Œ
+java:S2147"DCombine this catch with the one at line 24, which has the same body.(­ÄÌŞşÿÿÿÿ8Ç¤µÉ„2J$9702d38e-b4e6-45d2-85e7-bafeb762521c
+Œ
+java:S2147"DCombine this catch with the one at line 26, which has the same body.(‹¦ˆ”ùÿÿÿÿ8ŠÄ¶É„2J$32919c7c-3b71-4de3-93d7-0bbf361c9f26
+‡
+java:S2147"DCombine this catch with the one at line 29, which has the same body.(Ìœğ–8ß›·É„2J$63035cd2-0cd5-4e8a-bfcd-39239c1e49dd
+‹
+java:S2677"HUse or store the value returned from "read" instead of throwing it away.(Ï÷»§8äÚ´É„2J$06b77b51-ad0f-40fe-b86e-45daf0d6018d
+k	java:S108")Either remove or fill this block of code.(‹±ÃÆ8äÚ´É„2J$124a2719-6830-4bfd-a99c-930fc8d579cc
+p	java:S108")Either remove or fill this block of code.(‹¦ˆ”ùÿÿÿÿ8ŠÄ¶É„2J$22afd02c-ec2a-4070-866c-47623e89a315
+k	java:S108")Either remove or fill this block of code.(Ìœğ–8à›·É„2J$5feed98e-6ada-4d89-9f97-6463d38a0929
+r
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ˆÒ·É„2J$44c88d0d-cd4c-4d02-a5cd-80467a11cce8

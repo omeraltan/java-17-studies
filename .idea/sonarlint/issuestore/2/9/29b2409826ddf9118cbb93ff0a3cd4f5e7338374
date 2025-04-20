@@ -1,0 +1,15 @@
+
+}
+java:S1161
+":Add the "@Override" annotation above this method signature(¥©°«8ÍÍŠ¶ƒ2J$377418d6-eb2e-4cd6-8b7d-f94370b1bbae
+}
+java:S1161":Add the "@Override" annotation above this method signature(¥©°«8ÍÍŠ¶ƒ2J$14fff5d8-c8ab-4fe6-a73b-3e2ee9b5d3fd
+‰
+java:S18544"FRemove this useless assignment to local variable "animalUpcastingDog".(ÍÔ“8ÍÍŠ¶ƒ2J$f1586a31-0d0a-40ff-a16f-1166085fd1a7
+
+java:S18541"=Remove this useless assignment to local variable "dogKangal".(†ş¿68ÍÍŠ¶ƒ2J$35b0681c-4008-40cc-9325-b7243710083f
+ƒ	java:S125-"<This block of commented-out lines of code should be removed.(™ÁÉ«üÿÿÿÿ8ÎÍŠ¶ƒ2J$656dee98-7865-4279-aba1-d127dcfccce6
+p
+java:S14811".Remove this unused "dogKangal" local variable.(†ş¿68ÎÍŠ¶ƒ2J$b51bcfb8-38c8-465d-9e20-bcc8e89fda68
+z
+java:S14814"7Remove this unused "animalUpcastingDog" local variable.(ÍÔ“8ÎÍŠ¶ƒ2J$d995fd8b-1ae6-43ff-b1dc-bdf2da730b7d
