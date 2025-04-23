@@ -46,6 +46,25 @@ public class _17_Working_With_Periods {
         System.out.println("ChronoUnit.DAYS : " + newPeriod.get(ChronoUnit.DAYS));
         System.out.println("Units : " + newPeriod.getUnits());
 
+        System.out.println("---------------");
+
+        Period period2 = Period.ofDays(-5);
+        System.out.println(period2);
+        System.out.println(period2.negated());
+        System.out.println("IsNegative : " + period2.isNegative());
+        LocalDate localDate = LocalDate.of(2023,1,1);
+        System.out.println(localDate.plus(period2));
+        System.out.println(localDate.minus(period2));
+
+        System.out.println("---------------");
+
+        Period positivePeriod = Period.of(1,2,3);
+        Period negatedPeriod = positivePeriod.negated();
+
+        System.out.println("Pozitif Period: " + positivePeriod);
+        System.out.println("Negatif Period: " + negatedPeriod);
+
+
     }
 }
 
@@ -54,5 +73,6 @@ public class _17_Working_With_Periods {
  * Period sınıfı yardımı ile yıl, ay, gün şeklinde bir zaman periyodunu oluşturup bunu LocaDate, LocalTime vb. sınıflarımızda kullanabiliriz.
  * Java'da Period sınıfı, iki tarih arasındaki farkı yıl, ay ve gün cinsinden temsil eder. java.time paketinde bulunur ve genellikle LocalDate ile birlikte kullanılır.
  * Chaning işlemlerinde (period larda) en sondaki geçerlidir.
+ * Period işlemleri LocaTime ile kullanılamaz çünkü gün, ay ve yıl bilgisi ile çalışır.
  *
  */
