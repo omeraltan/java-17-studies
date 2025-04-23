@@ -26,14 +26,14 @@ public class _09_String_Pool {
         var singleString = "Hello World";
         var concat = "Hello ";
         concat += "World";
-        System.out.println(singleString == concat);
+        System.out.println(singleString == concat); // -> false
 
         System.out.println("------------");
         String fullMessage = "hello world";
         final String msg1 = "hello";
         final String msg2 = " world";
         String msg3 = msg1 + msg2;
-        System.out.println(fullMessage == msg3);
+        System.out.println(fullMessage == msg3); // -> false
 
         System.out.println("------------");
         var name = "Hello World";
