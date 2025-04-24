@@ -33,7 +33,7 @@ public class _17_Working_With_Periods {
 
         System.out.println("---------------");
 
-        var wrong = Period.ofYears(1).ofWeeks(1);
+        var wrong = Period.ofYears(1).ofWeeks(1); // -> Sadece haftayı ekler
         System.out.println(wrong);
 
         System.out.println("---------------");
