@@ -59,7 +59,7 @@ non-sealed interface Floats extends Swims{}
 /**
  *
  * Sealed class'lar JDK15 ile preview olarak tanıtıldı ve java 17 ile geldi.
- * Bir sınıf için sub class'larını kısıtlamak istersek yani belirli sınıflar bir sınıfı kalıtsın istersek sealed class kullanabilirirz.
+ * Bir sınıf için sub class'larını kısıtlamak istersek yani belirli sınıflar bir sınıfı kalıtsın istersek sealed class kullanabiliriz.
  * Sealed bir sınıf yada interface, hangi sınıfları doğrudan extend edeceğini yada implement edeceğini belirtir.
  * Sealed, mühürlü, gizli, kapalı gibi türkçe anlamlara gelmektedir.
  * Bir sealed class kendisini extends edecek class'ları belirtir.
@@ -78,7 +78,7 @@ non-sealed interface Floats extends Swims{}
  * "permits" ifadesini hangi durumlarda yazmayabiliriz?
  * 1- Sealed class ile sub class aynı source file'da yer alıyorsa bu durumda permits ifadesi zorunlu değildir.
  * 2- Bir class içinde başka bir class tanımlanabilir ve buna nested class'lar denir. Bu durumda sealed classların kullanımı farklıdır.
- * 3- sealed class'lar farklı bir dosyada is "permits" zorunludur.
+ * 3- sealed class'lar farklı bir dosyada ise "permits" zorunludur.
  * 4- sealed class'lar farklı bir dosyada değilse "permits" zorunlu değildir ama kullanılabilir.
  * 5- nested class'lar içinde "permits" zorunlu değildir ama kullanılabilir.
  * Class'lar sealed olabileceği gibi interface'lerde sealed olabilirler. Sealed interfacelerde yine benzer özelliğe sahip olabilirler.
