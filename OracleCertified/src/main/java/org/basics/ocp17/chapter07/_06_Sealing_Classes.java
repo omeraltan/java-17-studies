@@ -12,7 +12,7 @@ sealed class Bearer permits Kodiak, Panda{}
 final class Kodiak extends Bearer{}
 non-sealed class Panda extends Bearer{}
 
-// class sealed Frog permts GlassFrog{}     // -> DOES NOT COMPILE (sealed ifadesi class ifadesinden önce olmalıydı.)
+// class sealed Frog permits GlassFrog{}     // -> DOES NOT COMPILE (sealed ifadesi class ifadesinden önce olmalıydı.)
 
 abstract sealed class Wolf permits Timber{}
 final class Timber extends Wolf{}
@@ -24,7 +24,7 @@ final class Emperor{}
 
 sealed class Antelope permits Gazelle{}
 final class Gazelle extends Antelope{}
-// class George extends Gazelle{}           // -> DOES NOT COMPILE (izin verilen class'lar arasında olmadığı için compile-time hatası verir.)
+// class George extends Gazelle{}           // -> DOES NOT COMPILE (Gazelle sınıfı "final" olduğu için başka sınıflar tarafından extends edilemez. Eğer Gazelle sınıfı non-sealed olsaydı, George tarafından extends edilebilitdi)
 
 sealed class Mammal permits Equine{}
 sealed class Equine extends Mammal permits Zebra{}
@@ -37,16 +37,16 @@ class MyWolf extends Timber2{}
 sealed class Snake2 permits Cobra2{}
 final class Cobra2 extends Snake2{}
 
-sealed class Snake3 {}
+sealed class Snake3 {}                                  // -> Aynı field içinde oldukları için permeits ifadesinin kullanılmasına gerek yoktur. Zorunlu değildir.
 final class Cobra3 extends Snake3{}
 
-sealed class Snake4 permits Snake4.Cobra4, Sample{
+sealed class Snake4 permits Snake4.Cobra4, Sample{      // -> Inner class mühürlenmesi
     final class Cobra4 extends Snake4{}
 }
 
 final class Sample extends Snake4{}
 
-sealed class Snake5{
+sealed class Snake5{                                    // -> Inner class mühürlenmesi için permits ifadesinin kullanılmasına gerek yoktur. Zorunlu değildir.
     final class Cobra5 extends Snake5{}
 }
 
@@ -64,7 +64,7 @@ non-sealed interface Floats extends Swims{}
  * Sealed, mühürlü, gizli, kapalı gibi türkçe anlamlara gelmektedir.
  * Bir sealed class kendisini extends edecek class'ları belirtir.
  * sealed       : Bu kelime sealed class tanımlamak için kullanılır.
- * Sealed class'lar veya interface'ler sadece ismini verdiğimiz class'lar yada interface'ler tarafından extend edilebilir yada implement edilebilir.
+ * Sealed class'lar veya interface'ler sadece ismini verdiğimiz class'lar yada interface'ler tarafından extends edilebilir yada implement edilebilir.
  * Sealed ifadesini hem class'lar hemde interface'lerde kullanabiliriz.
  * permits      : Sealed class'larda kullanılmaktadır. İzin verilen class ve interfaceler için kullanılmaktadır.
  * non-sealed   : Sealed bir class'ı yada interface'i extends eden bir class'a yada interface'e uygulanır. Buda sealed'da permits ile belirtilmemiş class'lar yada interface'ler tarafından extends edilebileceğini belirtir.
@@ -89,8 +89,7 @@ non-sealed interface Floats extends Swims{}
  * 1- Sealed class'lar "sealed" ve "permits" anahtar kelimelerini kullanırlar.
  * 2- Sealed class'ların sub class'ları aynı class'ta yada aynı modülde tanımlı olması gerekiyor.
  * 3- Sealed class'ların direkt olan sub class'ları final, sealed veya non-sealed olmak zorundadır.
- * 4- "permits" anahtar kelimesi için eğer sealed class ile direkt sub class aynı source file'da tanımlı iseler yada sub class'ı direkt olarak nested olarak kullanmış isek bu durumda opsiyoneldir ve kullanmayabiliriz.
+ * 4- "permits" anahtar kelimesi için eğer sealed class ile direkt sub class aynı source file'da tanımlı iseler yada sub class'ı direkt nested olarak kullanmış isek bu durumda opsiyoneldir ve kullanmayabiliriz.
  * 5- Interface'lerde sealed özelliğe sahiptir vw interface'i implement edecek sınıfları ve extends edecek sınıfları permits ile belirtebiliriz.
- *
  *
  */

@@ -52,6 +52,7 @@ interface Hop{
     static int getJumpHeight(){
         return 8;
     }
+
 }
 
 class Skip{
@@ -76,7 +77,7 @@ interface ZooTrainTour{
 
 /**
  *
- * Interface'ler önceleri sadece abstract methodlara ve constant'lara sahipti sonrasında yeni methodlar eklenmiştir.
+ * Interface'ler önceleri sadece "abstract" methodlara ve "constant" 'lara sahipti sonrasında yeni methodlar eklenmiştir.
  *
  *                                  --------------- Interface Member Types ---------------
  *
@@ -98,16 +99,16 @@ interface ZooTrainTour{
  * 2- Bir default method mutlaka default anahtar kelimesi ile tanımlanmalıdır ve gövdeli olmalıdır.
  * 3- Bir default method dolaylı olarak public'tir.
  * 4- Bir default method public, abstract ve static olamaz ve bunlarla birlikte bir araya gelemez.
- * 5- Bir default method interface'i implemente eden sınıflar tarafından "override" edilebilir ama bir zorunuluk yoktur.
+ * 5- Bir default method, bu default method'a sahip interface'i implement eden sınıflar tarafından "override" edilebilir ama bir zorunuluk yoktur.
  * 6- Eğer bir sınıf iki yada daha fazla aynı method signature'a sahip methodu inherit ediyorsa bu durumda ilgili sınıf bu default method'u mutlaka override etmelidir.
  * Declaring static Interface Methods :
  * 1- Interface'lerde static method tanımıda yapılabilir.
- * 2- Bir static method mutlaka static anahtra kelimesi ile tanımlanmalıdır ve gövdeli olmalıdır.
+ * 2- Bir static method mutlaka static anahtar kelimesi ile tanımlanmalıdır ve gövdeli olmalıdır.
  * 3- Bir static method'da access modifier yoksa dolaylı olarak public'tir.
  * 4- Bir static method "abstract" yada "final" yada "default" olamaz.
  * 5- Bir static method kalıtılmaz.
  * 6- Bir interface'in static methodu çağırılırken interface ismi nokta method ismi ile çağırılır.
- * 7- Bir static methodda access modifier yoksa bu durumda "public" olacaktır.
+ * 7- Bir static method'da access modifier yoksa bu durumda "public" olacaktır.
  * Private Interface Method Definition Rules:
  * 1- private interface methodlar "private" olarak işaretlenmelidir ve gövdeli olmalıdır.
  * 2- private static method, interface'te yer alan herhangi bir methoddan çağırılabilir.
