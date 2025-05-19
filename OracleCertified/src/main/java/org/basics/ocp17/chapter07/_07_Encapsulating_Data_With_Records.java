@@ -47,6 +47,4 @@ record Crane2(){}
  *
  * Her hangi bir field olmadan da bir record tanımı yapılabilir.
  *
- *
- *
  */

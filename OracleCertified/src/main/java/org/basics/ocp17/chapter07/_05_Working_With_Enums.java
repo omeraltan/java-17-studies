@@ -38,7 +38,7 @@ public class _05_Working_With_Enums {
 
         Season summer2 = Season.SUMMER;
         var message = switch (summer2){
-            // case Season.SUMMER -> "Get out the sled!";      // DOES NOT COMPILE (Böyle bir deklarasyon geçerl değildir. Season.SUMMER)
+            // case Season.SUMMER -> "Get out the sled!";      // DOES NOT COMPILE (Böyle bir deklarasyon geçerli değildir. Season.SUMMER)
             // case 0 -> "Time for the pool!";                 // DOES NOT COMPILE (Enum'ların ordinal değerleri bu şekilde verilemez.)
             default -> "Is it summer yet?";
         };
@@ -68,7 +68,7 @@ enum CoffeeSize{
 
 class CoffeeSizeTest{
     public static void main(String[] args) {
-        System.out.println(CoffeeSize.TALL);
+        System.out.println(CoffeeSize.SHORT);
         System.out.println(CoffeeSize.TALL);
 
         System.out.println(CoffeeSize.TALL instanceof CoffeeSize);
@@ -95,6 +95,10 @@ enum NewSeason{
 enum OnlyOne{
 
     ONCE(true), TWICE(false);
+
+    OnlyOne(){
+        System.out.println("Enum Constructor is running...");
+    }
 
     OnlyOne(boolean b){
         System.out.print("constructing, ");
@@ -144,7 +148,7 @@ enum Season3 implements Weather{
  *
  * Enums Java'da bir anahtar kelimedir. Programlamada sınırlı değerler kümesine sahip olan veritiplerini kullanmak yaygındır.
  * Bu sınırlı değerler kümesi haftanın günleri, mevsimler, aylar, temel renkler olabilir.
- * Enum, fix setup constanttır. Yani belirli sayıdaki sabit değerlerden oluşan bir değerler kümesidir.
+ * Enum, fix setup constant'tır. Yani belirli sayıdaki sabit değerlerden oluşan bir değerler kümesidir.
  * Enum kullanmak bir dizi constant kullanmaktan daha iyi ve güvenlidir.
  * Enumları kullandığımızda invalid bir değer kullanmamız mümkün olmaz. Bu durumda kodumuz derlenme hatası verir.
  * Enum class'ları public veya hiçbirşey yazmassak package level olacaktır.
@@ -160,12 +164,12 @@ enum Season3 implements Weather{
  * Bir enum'ın constructor'ları implicitly olarak private'tır.
  * Bir main class'ı içerisinden enum değerlerinden herhangi birisini çalıştırdığınızda enum constructor enum miktarı kadar çalışır (Her bir enum için çalışır).
  * Switch statement'larda enum kullanabiliriz. Enum'ları switch expression'larda da kullanabiliriz.
- * Enum'larda değişken, constructor ve methodlar tanımlanabilirler.
+ * Enum'larda değişken, constructor ve methodlar tanımlanabilir.
  * Bir enum tanımında, enum tanımlarından sonra field'lar constructorlar veya methodlar varsa enumların bitiminde noktalı virgül olmak zorundadır.
  * Enum constructor'ları implicit olarak private'tır.
  * Enum'larda ilk constructor çağırımında bütün constructorlar bir kez çalışır diğer çağırımlarda çalışmazlar. Yani hepsi için birkez çalışacaktır.
  * Enum'lar interface'leri implemente edebilirler.
- * Bir Enum sınıfında önce value'lar bulunmak zorundadır (Örneğin: WINTER, SPRING, SUMMER, FALL;). Noktalı virgül de eğer bu value'lardan sonra değişken gibi, method gibi birşeyler varsa konulmak zorundadır.
+ * Bir Enum sınıfında önce value'lar bulunmak zorundadır (Örneğin: WINTER, SPRING, SUMMER, FALL;). Noktalı virgül; eğer bu value'lardan sonra değişken gibi, method gibi özellikler varsa noktalı virgül konulmak zorundadır.
  *
  *
  */
