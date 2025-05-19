@@ -39,11 +39,11 @@ record Crane2(){}
  * Record'un constructor'ına gönderilen parametreler record class'ında tanımladığı şekilde olmalıdır.
  * Members Automatically Added to Records (Bir record tanımlandığında arka tarafta otomatik olarak oluşturulan kodlarımız aşağıdadır.):
  * 1. Constructor : Record tanımındaki parametreler ile aynı sırada ve aynı şekilde parametre yapısına sahiptir.
- * 2. Buradaki constructo'a canonical constructor da denilir.
- * 3. Accessor method : Her bir field'a karşı bir accessor method oluşturulur.
- * 4. equals()   : java.lang.object sınıfından override edilir. Eğer property'ler aynı ise equals() methodu true döner.
- * 5. hashCode() : java.lang.object sınıfından override edilir.
- * 6. toString() : java.lang.object sınıfından override edilir.
+ * 2. Buradaki constructor'a "canonical constructor" 'da denilir.
+ * 3. Accessor method   : Her bir field'a karşı bir accessor method oluşturulur.
+ * 4. equals()          : java.lang.object sınıfından override edilir. Eğer property'ler aynı ise equals() method'u true döner.
+ * 5. hashCode()        : java.lang.object sınıfından override edilir.
+ * 6. toString()        : java.lang.object sınıfından override edilir.
  *
  * Her hangi bir field olmadan da bir record tanımı yapılabilir.
  *

@@ -12,7 +12,7 @@ public class _12_Creating_Nested_Classes {
 
 class Park{
 
-    static class Ride{
+    private static class Ride{
         // instance değişken ekleyebiliriz.
         private int price = 6;
 
@@ -43,6 +43,11 @@ class Park{
         var ride = new Ride();
         System.out.println(ride.price);
         System.out.println(Ride.MAX_SPEED);
+        ride.innerMethod();
+        Ride.innerStaticMethod();
+        System.out.println("----------");
+        var park = new Park();
+        park.outerMethod();
     }
 }
 
@@ -52,7 +57,7 @@ class Park{
  *
  * Creating a "static" Nested Class:
  * "static" tipte ve class'ın üyesi seviyesinde tanımladığımız class'lardır.
- * inner class'ların aksine, çevreleyen outher class objesi olmadan bu class  tipinde bir obje oluşturulabilir.
+ * inner class'ların aksine, çevreleyen outher class objesi olmadan bu class  tipinde bir nesne oluşturulabilir.
  * "static" nested class'lar outher class'ların instance değişkenlerine ve methodlarına direkt erişim sağlayamaz.
  * "static" nested class'lar private, protected veya public olarak tanımlanabilir.
  * Outher class, static nested class'ların değişken ve methodlarına erişim sağlayabilir.

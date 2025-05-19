@@ -10,7 +10,7 @@ public class _14_Creating_Nested_Classes {
 
 interface OuterNestedInterface{
 
-    // private interface PrivateNestedInterface {} // DOES NOT COMPILE (Bir interface içerisinde interface'ler private olarak tanımlanamazlar.)
+    // private interface PrivateNestedInterface {} // DOES NOT COMPILE (Bir interface içerisinde interface'ler private olarak tanımlanamazlar. Public olarak tanımlanabilirler.)
 
     // Modifier 'public' is redundant for interface members
     public interface PublicNestedInterface {
