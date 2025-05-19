@@ -37,6 +37,7 @@ class Home {
 
         var room = new Home().new Room();
         room.enter();
+        Room.greet("Hello");
     }
 }
 
@@ -125,20 +126,37 @@ class Fox {
 /**
  *
  * Nested class'lar bir class içinde tanımladığımız başka class'lardır.
- * Java'da 4 tipte nested class tanımlayabiliriz. Bunlar:
- * Inner class          : non-static type'da, class'ın üyesi seiyesinde tanımladığımız class'lardır.
- * Static nested class  : static type'da class'ın üyesi seviyesinde tanımladığımız class'lardır.
- * Local class          : method body'si içerisinde tanımladığımız class'lardır.
- * Anonymous class      : local class'ların bir başka halidir. İsimleri yoktur.
- * Nested class'lar yardımcı class'lar olarak kullanılabilir. Bunun için private tanımlanması yeterlidir.
+ * Java'da 4 tipte nested class tanımlayabiliriz. Bunlar: "Inner Class", "Static Nested Class", "Local Class" ve "Anonymous Class"
+ * Bu dört tip nested class'ın özellikleri:
  *
+ * Inner Class:
+ * 1. Dış sınıfın instance'ına ihtiyaç duyar.
+ * 2. Outer.Inner inner = outer.new Inner(); şeklinde oluşturulur.
+ * 3. Dış sınıfın tüm üyelerine erişebilir.
+ *
+ * Static Nested Class:
+ * 1. Dış sınıfın instance'ına ihtiyaç duymaz.
+ * 2. Outer.StaticNested nested = new Outer.StaticNested(); şeklinde oluşturulur.
+ * 3. Sadece static üyelere erişebilir.
+ *
+ * Local Inner Class:
+ * 1. Sadece tanımlandığı method içinde kullanılabilir.
+ * 2. Method'un değişkenlerine erişebilir (final veya effectively final).
+ * 3. Method dışında oluşturulamaz.
+ *
+ * Anonymous Inner Class:
+ * 1. İsimsizdir.
+ * 2. Tek seferlik kullanım için uygundur.
+ * 3. Genellikle "event handling" gibi durumlarda kullanılır.
+ *
+ * Nested class'lar yardımcı class'lar olarak kullanılabilir. Bunun için private tanımlanması yeterlidir.
  * Inner class'lar 4 access level'e sahip olabilir (public, protected, package ve private).
  * Inner class'lar bir class'ı kalıtabilir veya birden fazla interface'i implement edebilir.
  * Inner class'lar abstract yada final olabilir.
  * Outher class'ın üyelerine (private access level'e sahip olanlarda dahil) erişim sağlayabilir.
  * Nested class'lar 4 access level'e de sahip olabilirler (package level, private, public, protected). Bu konuda normal class tanımlamalarından farklıdırlar.
  * Java 16 ile birlikte nested class'lar içerisinde static methodların ve değişkenlerin tanımlamaları yapılabilmektedir.
- * Bir inner class'ın object'ini oluşturabilmek için ilk önce dışasıradki class'ın nesnesinin oluşturulması gerekmektedir.
+ * Bir inner class'ın object'ini oluşturabilmek için ilk önce dışarıdaki class'ın nesnesinin oluşturulması gerekmektedir.
  * Home$Room.class : inner class'ın derlenmesi sonucu böyle bir dosya oluşur (Outer$Inner.class).
  * Outer class'lar inner class'ların üyelerine, aynı şekilde, inner class'lar outer class'ların üyelerine erişim sağlayabilirler (Bunlar private olmalarına rağmen.).
  * static bir method instance bir methoda erişim sağlayamaz.

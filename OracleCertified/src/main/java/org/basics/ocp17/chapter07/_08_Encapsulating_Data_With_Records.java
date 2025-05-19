@@ -12,6 +12,7 @@ public class _08_Encapsulating_Data_With_Records {
     }
 
 }
+
 record Tomb(int value, String name){}
 
 // record BlueTomb() extends Tomb(int numberEggs, String name){}        // DOES NOT COMPILE
@@ -30,10 +31,9 @@ record Creak(int numberEggs, String name){
  * "record" 'lar final olduğu için record tanımlarında final keyword kullanmak gereksizdir (implicitly final).
  * Bir "record" yada bir class, bir başka "record" 'u kalıtamaz.
  * Bir "record" bir yada daha fazla interface'i yada sealed interface'i implements edebilir.
- * "record" larda iki tip constructor vardır. her zaman kullandığımız constructor ve "compact constructor"
+ * "record" 'larda iki tip constructor vardır. Her zaman kullandığımız constructor ve "compact constructor"
  * Bir "record" 'da tanımlanan field sırasına göre default olarak constructor tanımlanır.
- * Bir "record" 'da tanımlanan field'lar finaldır ve constructor da değer ataması yapılmak zorundadır.
+ * Bir "record" 'da tanımlanan field'lar "final" 'dır ve constructor da değer ataması yapılmak zorundadır.
  * field'lara final keyword'ü yazılmaz ama final'dır.
- *
  *
  */

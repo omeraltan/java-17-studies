@@ -51,7 +51,7 @@ class PrintNumbers{
  *
  * Writing a Local Class:
  * Local class'lar method, constructor veya bir kod bloğu içerisinde tanımlanmış nested class'lardır.
- * Local variable'larda olduğu gibi bir local class, method çağrılmadan var olmayacaktır ve method sonlanınca scope dışına çıkacaktır.
+ * Local variable'larda olduğu gibi bir local class, method çağrılmadan var olmayacaktır ve method sonlanınca "scope" dışına çıkacaktır.
  * Bir Local class nesnesini sadece tanımlandığı method içinde oluşturabiliriz.
  * Local class'ın özellikleri:
  * 1- Local değişkenlerde olduğu gibi, access modifier'ları yer almaz.
