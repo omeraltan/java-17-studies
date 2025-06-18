@@ -58,6 +58,6 @@ class C implements A, B {
  * Bir class bir interface'i extends edemez.
  * Bir interface bir class'ı extends edemez.
  * Java birbirleri ile uyumlu iki abstract methodu kalıtmamıza izin verir (Bu ifade, Java'da iki farklı interface'den gelen aynı imzaya sahip (aynı isim, parametreler ve dönüş tipi) abstract metodları tek bir sınıfta uygulayabilmemiz anlamına gelir. Bu durum "diamond problem" (elmas problemi) olarak bilinen bir durumun çözümüdür.).
- * Bir interface başka bir interface'i extends anahtar kelimesi ile kalıttığında kalıttığı interface'in abstract methodlarını override etmek zorunda değildir.
- *
+ * Bir interface başka bir interface'i extends anahtar kelimesi ile kalıttığında kalıttığı interface'in abstract methodlarını override etmek zorunda değildir. Çünkü ikiside abstract'tır.
+ * Bir interface'i implement eden bir class interface tarafından override edilmeyen bütün abstract methodları override etmek zorundadır.
  */
