@@ -62,6 +62,5 @@ class PrintNumbers{
  * Compiler her bir inner class için ayrı bir class dosyası oluşturmaktadır.
  * Ayrı bir dosyada yer alan class'ın local variable'a refer etmesi mümkün değildir.
  * Bu nedenle eğer local variable final veya effectively final ise bu durumda Java pass by value yaklaşımı ile bu işi halledeceketir.
- *
- *
+ *  *
  */

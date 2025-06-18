@@ -28,6 +28,14 @@ class Park{
         private static void innerStaticMethod(){
             System.out.println("innerStaticMethod!");
         }
+
+        static enum EnumTest{
+            TEST1, TEST2
+        }
+
+        static record RecordTest(String param1, Integer param2){
+
+        }
     }
 
     private void outerMethod(){
@@ -65,6 +73,5 @@ class Park{
  * "static" class'larda instance method ve instance değişken tanımlayabiliriz.
  * Outher class, static class'ın private üyelerine erişim sağlayabilir.
  * Nested olarak tanımlanmış "enum" ve "record" 'lar aslında implictly olarak static'tir.
- *
  *
  */

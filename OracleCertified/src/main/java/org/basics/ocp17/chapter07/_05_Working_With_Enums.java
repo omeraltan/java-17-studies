@@ -70,6 +70,7 @@ class CoffeeSizeTest{
     public static void main(String[] args) {
         System.out.println(CoffeeSize.SHORT);
         System.out.println(CoffeeSize.TALL);
+        System.out.println(CoffeeSize.GRANDE);      // Bu çağırılmasada constructor'ı çalışacaktır.
 
         System.out.println(CoffeeSize.TALL instanceof CoffeeSize);
         System.out.println(CoffeeSize.SHORT instanceof Enum<CoffeeSize>);
@@ -167,7 +168,7 @@ enum Season3 implements Weather{
  * Enum'larda değişken, constructor ve methodlar tanımlanabilir.
  * Bir enum tanımında, enum tanımlarından sonra field'lar constructorlar veya methodlar varsa enumların bitiminde noktalı virgül olmak zorundadır.
  * Enum constructor'ları implicit olarak private'tır.
- * Enum'larda ilk constructor çağırımında bütün constructorlar bir kez çalışır diğer çağırımlarda çalışmazlar. Yani hepsi için birkez çalışacaktır.
+ * Enum'larda ilk constructor çağırımında bütün constructorlar bir kez çalışır diğer çağırımlarda çalışmazlar. Yani her bir enum değer için birkez çalışacaktır.
  * Enum'lar interface'leri implemente edebilirler.
  * Bir Enum sınıfında önce value'lar bulunmak zorundadır (Örneğin: WINTER, SPRING, SUMMER, FALL;). Noktalı virgül; eğer bu value'lardan sonra değişken gibi, method gibi özellikler varsa noktalı virgül konulmak zorundadır.
  *

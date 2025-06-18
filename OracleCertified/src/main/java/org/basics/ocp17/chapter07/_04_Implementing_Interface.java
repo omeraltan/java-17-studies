@@ -99,7 +99,7 @@ interface ZooTrainTour{
  * 2- Bir default method mutlaka default anahtar kelimesi ile tanımlanmalıdır ve gövdeli olmalıdır.
  * 3- Bir default method dolaylı olarak public'tir.
  * 4- Bir default method public, abstract ve static olamaz ve bunlarla birlikte bir araya gelemez.
- * 5- Bir default method, bu default method'a sahip interface'i implement eden sınıflar tarafından "override" edilebilir ama bir zorunuluk yoktur.
+ * 5- Bir default method, bu default method'a sahip interface'i implement eden sınıflar tarafından "override" edilebilir ama bir zorunluluk yoktur.
  * 6- Eğer bir sınıf iki yada daha fazla aynı method signature'a sahip methodu inherit ediyorsa bu durumda ilgili sınıf bu default method'u mutlaka override etmelidir.
  * Declaring static Interface Methods :
  * 1- Interface'lerde static method tanımıda yapılabilir.
