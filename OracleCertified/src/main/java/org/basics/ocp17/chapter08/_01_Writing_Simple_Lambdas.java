@@ -97,7 +97,7 @@ class ValidLambdas{
  *
  * Birden fazla parametrenin kullanıldığı durumda parantez kullanılmak zorundadır.
  *
- * 
+ *
  *
  *
  *
