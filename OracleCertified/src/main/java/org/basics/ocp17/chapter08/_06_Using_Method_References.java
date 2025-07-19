@@ -34,7 +34,7 @@ interface StringCopier{
  *
  * ----- Calling Constructors -----
  * Bir Constructor referans, method referansın özel bir tipidir.
- * Nesne oluşturup instance değişken üzerinden method çağırmak yerine "new" anahtar kelimesini kullanırırz.
+ * Nesne oluşturup instance değişken üzerinden method çağırmak yerine "new" anahtar kelimesini kullanırız.
  * 4 farklı şekilde method referansı vardır.
  *
  *      ----------- Method References ----------
