@@ -1,8 +1,5 @@
 package org.basics.ocp17.chapter08;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class _01_Writing_Simple_Lambdas {
 
 
