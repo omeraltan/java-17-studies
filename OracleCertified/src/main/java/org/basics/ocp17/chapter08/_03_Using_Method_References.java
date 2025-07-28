@@ -38,7 +38,7 @@ class Demo {
     }
 }
 
-// 2-Method Reference (Instance Methods on a Particular Object (Belirli bir nesneye ait metod))
+// 2-Method Reference (Instance Methods on a Particular Object (Belirli bir nesneye ait method))
 class Demo2 {
     public String getGreeting() {
         return "Merhaba!";
@@ -51,7 +51,7 @@ class Demo2 {
     }
 }
 
-// 3-Instance Methods on a Parameter to Be Determined at Runtime (Parametre olarak gelen nesneye ait metod)
+// 3-Instance Methods on a Parameter to Be Determined at Runtime (Parametre olarak gelen nesneye ait method)
 class Demo3 {
     public static void main(String[] args) {
         Function<String, Integer> stringLength = String::length;
@@ -96,9 +96,9 @@ class StaticMethodRef{
  * Method Reference, kodun okunmasını kolaylaştırır. Lambda ifadeleri gibi farklı bir syntax'a sahiptir.
  * Method Reference, functional interfaceler ile birlikte kullanılabilir.
  * Method Reference'ın 4 farklı şekilde tanımı yapılabilir.
- * 1- static methods (Sınıf ismine ait static bir metod referans alınır. Örnek: ClassName::staticMethod)
+ * 1- static methods (Sınıf a ait static bir method referans alınır. Örnek: ClassName::staticMethod)
  * 2- instance methods on a particular object (Belirli bir nesneye ait instance metodu referans alınır. Örnek: object::instanceMethod)
- * 3- instance methods on a parameter to be determined at runtime (Çalışma zamanında belirlenen bir nesneye ait instance metodu referans alınır. Örnek: ClassName::instanceMethod) (Burada metot, parametre olarak gelen nesne üzerinden çağrılır)
- * 4- constructors (Yeni bir nesne oluşturmak için constructor referans alınır. Örnek: ClassName::new)
+ * 3- instance methods on a parameter to be determined at runtime (Çalışma zamanında belirlenen bir nesneye ait instance methodu referans alınır. Örnek: variable::instanceMethod) (Burada method, parametre olarak gelen nesne üzerinden çağrılır)
+ * 4- constructors (Yeni bir nesne oluşturmak için constructor referans alınır. Örnek: String::new)
  *
  */

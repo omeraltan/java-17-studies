@@ -22,16 +22,17 @@ class Tiger implements Sprint{
 }
 
 @FunctionalInterface
-interface Dance{        // DOES NOT COMPILE (İki tane abstract method olduğu için functional interface olmaz compile time hatası verir.)
+interface Dance{        // DOES NOT COMPILE (İki tane abstract method olduğu için functional interface olmaz ve compile time hatası verir.)
     void move();
     // void rest();
 }
 
-// Dash interface'i Sprint'i kalıtmakta ve herhangi bir method tanımlamadığı için "Functional Interface" 'dir
+// Dash interface'i Sprint'i kalıtmakta ve herhangi bir method tanımlamadığı için "Functional Interface" 'dir. Çünkü Sprint interface'inde bir abstract method vardır.
 @FunctionalInterface
 interface Dash extends Sprint{}
 
 // Sprint interface'inde zaten bir tane abstract method olduğu için "Functional Interface" değildir.
+// @FunctionalInterface
 interface Skip extends Sprint{
     void skip();
 }
@@ -83,7 +84,7 @@ interface Hibernate{
  *      --- Coding Functional Interfaces ---
  * Tek bir abstract method içeren interface'lerdir (sam -> single abstract method).
  * @FunctionalInterface anotasyonunu kullanmak opsiyoneldir (@Override anotasyonu gibi).
- * @FunctionalInterface kullanıldığında, eğer kodumuz bir fınctiona interface ise çalışacaktır değilse hata verecektir.
+ * @FunctionalInterface kullanıldığında, eğer kodumuz bir function interface ise çalışacaktır değilse hata verecektir.
  * Butün class'lar görünmesede java.lang.Object sınıfını kalıtırlar. Dolayısıyla bütün sınıflar public String toString(), public boolean equals(Object) ve public int hashCode() methodlarına sahip olacaktır.
  * Eğer bir functional interface bu methodlara sahipse, bu methodlar functional interface'in tek bir abstract methoda sahip olması kuralına etki etmezler (Yani bu methodlar göz ardı edileblir.).
  *

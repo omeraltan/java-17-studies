@@ -24,7 +24,13 @@ public class _04_Using_Method_References {
         System.out.println(lambda2.check());
 
         exampleMethodForStringStart();
+
+        System.out.println("--------------------");
+
         exampleMethodForStringStart2();
+
+        System.out.println("--------------------");
+
         exampleMethodForStringChecker();
     }
 
@@ -49,8 +55,8 @@ public class _04_Using_Method_References {
     private static void exampleMethodForStringStart2(){
         System.out.println("----- Example method For String Start-2 -----");
 
-        StringStart start = myClassStaticVariable::instanceMethod; // Sınıfın instance değişkenleri üzerindende isntance methodları kullanabiliriz.
-        // StringStart start2 = myClassInstanceVariable::staticMethod; // -> DOES NOT COMPILE instance değişken ile static methoda erişemeyiz.
+        StringStart start = myClassStaticVariable::instanceMethod; // Sınıfın static değişkenleri üzerinden de isntance methodları kullanabiliriz.
+        // StringStart start2 = myClassInstanceVariable::staticMethod; // -> DOES NOT COMPILE static değişken ile static methoda erişemeyiz.
         // Static method referenced through non-static qualifier
         // StringStart start3 = myClassStaticVariable::staticMethod; // -> DOES NOT COMPILSE static değişken üzerinden bir static method çağırılamaz.
         // Sınıf üzerinden static method çağırılabilir.
@@ -71,10 +77,12 @@ public class _04_Using_Method_References {
 
 }
 
+@FunctionalInterface
 interface StringStart{
     boolean beginningCheck(String prefix);
 }
 
+@FunctionalInterface
 interface StringChecker{
     boolean check();
 }

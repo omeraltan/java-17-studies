@@ -44,10 +44,10 @@ class ValidLambdas{
  * "Object Oriented Programming", "Functional Programming" ve "Aspect Oriented Programming" birbirini tamamlayan programlama yaklaşımlarıdır.
  * "Functional Programming", kodu daha deklaratif (bildirimsel) yazmanın bir yöntemidir. Objelerin durumu yani state yerine ne yapmak istediğimizi belirtiriz.
  * Döngülerden çok ifadelere odaklanır. "Functional Programming" 'de kod yazmak için "lambda" ifadelerini kullanırız.
- * Lambda expression etrafta dolaşan bir kod bloğudur.
+ * Lambda expression, etrafta dolaşan bir kod bloğudur.
  * Bir lambda ifadesi, Anonim sınıflar içerisinde var olan isimsiz bir method gibi düşünülebilir.
  * Bir lambda ifadesi, parametrelere ve body'lere sahip olacaktır fakat bir ismi yoktur.
- * Lambda ifadeleri, "Deferred execution" konseptini kullanır. Kod tanımlandığı noktada değil saha sonra çalışacaktır.
+ * Lambda ifadeleri, "Deferred execution" konseptini kullanır. Kod tanımlandığı noktada değil daha sonra çalışacaktır.
  * Lambda ifadeleri interfaceler ile birlikte çalışır ve bu interfacelerin bir tane abstract methodunun olması gerekir.
  * Lambda ifadesi ile interface'in abstract methodunun birbiri ile uyumlu olması gerekmektedir.
  * a -> a.canHop() ile (Animal a) -> { return a.canHop } arasında bir fark yoktur. İlk tanımı yapılan lamda ifadesi ikincinin kısaltılmış halidir.
@@ -63,9 +63,9 @@ class ValidLambdas{
  *                 |
  *               Arrow
  *
- * Bir lambda ifadesinde return kullanıldığında ";" ifadesinin kullanımı zorunludur.
- * Parametrenin tipi belirtildiğinde parantez de kullanılması gerekmektedir. (Animal a) -> { return a.canHop(); }
- * Tek bir parametre tanımlandığında ve bu parametrenin tipi belirtilmediğinde parantez kullanmyabiliriz.
+ * Bir lambda ifadesinde "return" kullanıldığında ";" ifadesinin kullanımı zorunludur.
+ * Parametrenin tipi belirtildiğinde parantez de kullanılması gerekmektedir "(Animal a) -> { return a.canHop(); }".
+ * Tek bir parametre tanımlandığında ve bu parametrenin tipi belirtilmediğinde parantez kullanmayabiliriz.
  * Aşağıdaki ifadelerin ikiside geçerlidir:
  * a -> { return a.canHop(); }
  * (Animal a) -> a.canHop()
@@ -93,9 +93,5 @@ class ValidLambdas{
  * String x -> x.endsWith("eagle")                      Missing parentheses on left
  *
  * Birden fazla parametrenin kullanıldığı durumda parantez kullanılmak zorundadır.
- *
- *
- *
- *
  *
  */
