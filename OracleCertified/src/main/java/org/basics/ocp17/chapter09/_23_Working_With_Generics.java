@@ -33,7 +33,7 @@ public class _23_Working_With_Generics {
         list4.add(null);
         // list4.add(new B());  // DOES NOT COMPILE
         // list4.add(new C());  // DOES NOT COMPILE
-        
+
 
     }
 
