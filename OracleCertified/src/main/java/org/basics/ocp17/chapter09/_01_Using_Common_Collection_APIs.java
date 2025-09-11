@@ -6,7 +6,7 @@ public class _01_Using_Common_Collection_APIs {
 
     public static void main(String[] args) {
 
-        // List<> list = new ArrayList<Integer>(); // -> DOES NOT COMPILE (Tip Bilgisi Sağ Tarafta Tanımlanmak Zorundadır.).
+        // List<> list = new ArrayList<Integer>(); // -> DOES NOT COMPILE (Tip Bilgisi Sol Tarafta Tanımlanmak Zorundadır. Sağ tarafta tanımlanmasına artık gerek yoktur.).
 
         Collection<String> list = new ArrayList<>();
         System.out.println(list.add("Sparrow"));    // true
@@ -39,7 +39,7 @@ public class _01_Using_Common_Collection_APIs {
         birds2.add("eagle");
         System.out.println(birds2.remove("cardinal"));  // false
         System.out.println(birds2.remove("hawk"));      // true
-        System.out.println(birds2);
+        System.out.println(birds2);                        // [hawk]
 
         System.out.println("--------------------");
 
@@ -74,15 +74,15 @@ public class _01_Using_Common_Collection_APIs {
         Collection<String> list2 = new ArrayList<>();
         list2.add("Magician");
         list2.add("Assistant");
-        System.out.println(list2);
+        System.out.println(list2);                          // [Magician, Assistant]
         list2.removeIf(s -> s.startsWith("A"));
-        System.out.println(list2);
+        System.out.println(list2);                          // [Magician]
 
         Collection<String> set2 = new HashSet<>();
         set2.add("Wand");
         set2.add("");
-        set2.removeIf(String::isEmpty);     // s -> s.isEmpty()
-        System.out.println(set2);           // [Wand]
+        set2.removeIf(String::isEmpty);                     // s -> s.isEmpty()
+        System.out.println(set2);                           // [Wand]
 
         System.out.println("--------------------");
 
@@ -99,16 +99,16 @@ public class _01_Using_Common_Collection_APIs {
         var set3 = Set.of(1,2);
         var set4 = Set.of(2,1);
 
-        System.out.println(list3.equals(list4));
-        System.out.println(set3.equals(set4));
-        System.out.println(list3.equals(set3));
-        System.out.println(list3.equals(list5));
+        System.out.println(list3.equals(list4));                // false
+        System.out.println(set3.equals(set4));                  // true
+        System.out.println(list3.equals(set3));                 // false
+        System.out.println(list3.equals(list5));                // true
 
         System.out.println("--------------------");
 
         var heights = new ArrayList<Integer>();
         heights.add(null);
-        int h = heights.get(0);             // NullPointerException
+        int h = heights.get(0);                                 // NullPointerException
 
 
     }
@@ -130,12 +130,12 @@ class InvalidUse{
  * Map      : "key" ve "value" çifti bulunmaktadır. Duplicate key'e izin verilmez.
  * Bu interface'ler java.util paketinde yer alırlar.
  *
- *                                                      Collection
+ *                                                      Collection (java.util)
  *                                                          |
- *                     -------------------------------------------------------------------------                                    Map
+ *                     -------------------------------------------------------------------------                                    Map (java.util)
  *                     |                                    |                                   |                       ---------------------------
- *                     List                                 Queue                               Set                     |                          |
- *             -------------------                  --------------------                ------------------              HashMap                 TreeMap
+ *                    List (java.util)                    Queue (java.util)                    Set (java.util)         |                          |
+ *             -------------------                  --------------------                ------------------           HashMap                  TreeMap
  *             |                  |                 |                   |               |                 |
  *          ArrayList        LinkedList          LinkedList          Deque          HashSet             TreeSet
  *
@@ -155,9 +155,8 @@ class InvalidUse{
  * ----- Removing Data -----
  * Elemanların silinmesi işleminde, Collection interface'inde  "remove" methodu yer almaktadır.
  * public boolean remove (Object object);
- * Bu method object tipinde bir parametre almakta ve geriye boolean dönmektedir.
- * Collection'da eşleşen bir Object varsa bu object'i kaldıracaktır. Geriye true veya false dönecektir.
- * Elemanı kaldırırsa true eğer böyle bir eleman yoksa false dönecektir.
+ * Bu method Object tipinde bir parametre almakta ve geriye boolean dönmektedir.
+ * Collection'da eşleşen bir Object varsa bu Object'i kaldıracaktır. Geriye silinen değeri döndürür.
  *
  * ----- Counting Elements -----
  * isEmpty() ve size() method ları Collection'da kaç tane elemanın olduğunu gösterir. Method yapıları şu şekildedir:
@@ -166,7 +165,7 @@ class InvalidUse{
  *
  * ----- Clearing the Collection -----
  * Clear methodu, collection da yer alan tüm elemanları discard edecektir yani tüm elemanları temizleyecektir.
- * publlic void clear();
+ * public void clear();
  *
  * ----- Check Contents -----
  * Contains methodu ilgili objenin Collection da yer alıp almadığına bakacaktır.
@@ -187,7 +186,7 @@ class InvalidUse{
  *
  * ----- Determining Equality -----
  * equals methodu Collection larda override edilmiştir yani çeşitli custom implementasyonlara sahiptir.
- * Bu implamantosyonlar çeşitlilik gösterebilir. Örneğin; ArrayList ordered sırayı kontrol ederken HashASet için sıra önemli değildir.
+ * Bu implamantosyonlar çeşitlilik gösterebilir. Örneğin; ArrayList ordered sırayı kontrol ederken HashSet için sıra önemli değildir.
  * HashSet yapısı unordered bir yapıya sahiptir.
  *
  * ----- Unboxing nulls -----
