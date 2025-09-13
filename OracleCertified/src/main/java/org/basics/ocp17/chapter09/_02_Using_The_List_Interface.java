@@ -136,9 +136,9 @@ public class _02_Using_The_List_Interface {
  * List veri yapısı index base dir ve indekler 0 (sıfır) dan başlar.
  *
  * ----- Comparing List Implementations -----
- * ArrayList bir Array'in resizable haline benzemektedir. Eleman ekledikçe ototmatik olarak büyür.
- * ArrayList in temel faydası elemanlarına hızlı bir şekilde erişim sağlanacaktır.
- * ArrayLİst lerde eleman eklemek ve çıkartmak okuma ve erişim işlemine göre daha yavaştır.
+ * ArrayList bir Array'in resizable haline benzemektedir. Eleman ekledikçe otomatik olarak büyür.
+ * ArrayList'in temel faydası elemanlarına hızlı bir şekilde erişim sağlanacaktır.
+ * ArrayList lerde eleman eklemek ve çıkartmak okuma ve erişim işlemine göre daha yavaştır.
  * LinkedList class'ı da List interface ini implement eder. Bununla birlikte Deque interface'ini de implement eder.
  * Bundan dolayı list sınıfının sahip olduğu methodlara sahiptir. Aynı zamanda listenin başına yada sonuna eleman ekleyen yada başından yada sonundan eleman çıkartan methodlara sahiptir.
  * Bu methodlarda Deque yapısından gelmektedir (listenin başına ve sonuna ekleme yapan veya çıkarma yapan methodlar).
