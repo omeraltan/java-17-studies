@@ -26,6 +26,7 @@ public class _05_Using_The_Queue_And_Deque_Interfaces {
 
         System.out.println("---------------");
 
+
         stackExample();
 
     }
@@ -197,8 +198,8 @@ public class _05_Using_The_Queue_And_Deque_Interfaces {
  *
  * ----- Comparing Deque Implementation -----
  * LinkedList sınıfı bir List'tir aynı zamanda Deque'dir. Yani List ve Deque interface'lerini implement eder. Dolayısıyla iki sınıfında methodlarına sahiptir.
- * İki ayrı interface'i impelemnte ettiği için tradeof özelliği olarak yani dezavantaj olarak bir pure queue kadar verimli değildir.
- * Eğer saf bir queue kullanmak istersek bu durumda arraydeque kullanabiliriz veya priorityque kullanabiliriz.
+ * İki ayrı interface'i impelemnte ettiği için "trade-of" özelliği olarak yani dezavantaj olarak bir pure queue kadar verimli değildir.
+ * Eğer saf bir queue kullanmak istersek bu durumda "arraydeque" kullanabiliriz veya "priorityque" kullanabiliriz.
  *
  * -------------------- Queue Methods --------------------
  * Functionality                    Methods
@@ -212,7 +213,7 @@ public class _05_Using_The_Queue_And_Deque_Interfaces {
  * Get and remove from front        public E remove()               -> Hata fırlatma durumu var
  *                                  public E poll()
  *
- * PriorityQueue ise AbstractQueue kalıtır. AbstractQueue ise Queue interface'ini implement eder.
+ * PriorityQueue ise AbstractQueue yi kalıtır. AbstractQueue ise Queue interface'ini implement eder.
  * Deque ile listenin başına yada sonuna ekleme yapılabilir.
  *
  * -------------------- Deque Methods --------------------
