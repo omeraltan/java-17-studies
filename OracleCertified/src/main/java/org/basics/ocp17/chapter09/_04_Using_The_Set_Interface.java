@@ -199,7 +199,7 @@ public class _04_Using_The_Set_Interface {
         Integer number1 = Integer.valueOf(10);
         Integer number2 = Integer.valueOf(10);
 
-        System.out.println("number1.equals(number2) : " + number1.equals(number2));
+        System.out.println("number1.equals(number2) : " + number1.equals(number2)); // Integer sınıfı equals methodunu override ettiği için number1 ve number2 inin değerlerine bakılır. Override edilmeseydi nesneler kıyasalanacaktı.
     }
 
 }
@@ -273,7 +273,7 @@ record Address(int id, String city, String road){ }
  * HashSet veya LinkedHashSet gibi sınıfları bulunmaktadır.
  * add methodu ile eleman eklendiğinde true değer döner eğer eleman eklenemezse false değeri döner.
  * StringBuilder sınıfında equals() methodu override edilmemiştir. Bundan dolayı "==" operatörü ile aynı şekilde çalışacaktır.
- * Set için duplicate kavarı equals() methodu ile kontrol edilir.
+ * Set için duplicate kararı equals() methodu ile kontrol edilir.
  * HashSet için elemanlar eklediğimiz sırada tutulmazlar. Index base bir yapısı yoktur (unordered).
  * LinkedHastSet için eğer elemanlar eklediğimiz sırada tutulsun istiyorsak kullanılır.
  * TreeSet için elemanları sıralanmış bir şekilde tutulmaktadır. Bundan dolayı elemanların eklenmesi ve elemanın set li olup olmadığının kontrol edilmesi hashSet e göre daha fazla süre alacaktır.

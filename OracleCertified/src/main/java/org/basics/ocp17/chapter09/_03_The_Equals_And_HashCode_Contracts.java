@@ -72,7 +72,7 @@ class Company{
  *
  * "==" operatörü için, bu iki referans değişkeni aynı nesneyi mi gösteriyor doğrulamasını yapar.
  * Eğer iki referans değişken aynı nesneyi gösteriyorsa true göstermiyorsa false döner.
- * String sınıfı equals methodunu override eder. Benzer şekilde Integer sınıfı ve dğer weapper class larda equeals methodunu override ederler.
+ * String sınıfı equals methodunu override eder. Benzer şekilde Integer sınıfı ve dğer wrapper class larda equals methodunu override ederler.
  * Eğer iki integer nesnesi 5 değerini tutuyorsa bu iki object için equals true olacaktır.
  * Eğer equals methodunu override etmezsek, bu durumda java.lang.Object sınıfında yer alan equals() methodu kullanılacaktır.
  * Eğer equals() methodu override edilmezse aynı "==" operatörünün yaptığı işi yapacaktır.
@@ -81,13 +81,13 @@ class Company{
  * "reflexive"  dir. "x.equals(x)" değeri "true" dönmelidir.
  * "symmetric"  dir. "x.equals(y)" "true" ise bu durumda "y.equals(x)" değeri de "true" dönmelidir.
  * "transitive" dir. "x.equals(y) "true" ise ve y.equals(z) true ise bu durumda x.equals(z) true olmalıdır.
- * "consistent" dir. x ve y referans değişkenleri için birden fazla ke x.equals(y) değerini çağırdığımızda tutarlı bir şekilde true veya false dönmelidir.
+ * "consistent" dir. x ve y referans değişkenleri için birden fazla x.equals(y) değerini çağırdığımızda tutarlı bir şekilde true veya false dönmelidir.
  * "null" olmayan bir x referans değişkeni için x.equals(null) her zaman false değerini dönmelidir.
  *
  * hashCode() methodu java.lang.Object sınıfında yer alan bir methoddur.
  * hashMap, hashSet ve hashTable gibi Collection lar, ilgili object ler tutmak için bu object lerin hashCode değerlerini kullanırlar.
  * Bunu daha iyi anlamak için bucket (sepet) kavramını düşünebiliriz.
- * Bir grup object i tutmak için bunları tek sepete koymak yerine bir gruplama yapıp birden fazla sepet kullanıp bu object ler koymak sonradan bu objectlere erişim açısından
+ * Bir grup object i tutmak için bunları tek sepete koymak yerine bir gruplama yapıp birden fazla sepet kullanıp bu object lere koymak sonradan bu objectlere erişim açısından
  * daha kolay olacaktır. Kitapları türlerine göre gruplayıp koymak daha sonra aradığımızda bulmamız daha kolay olacaktır.
  * Bucket kavramı tekil bir hashCode bilgisi anlamına gelmektedir. örneğin 10 tane bucket bilgisi olduğunu düşünürsek on tane hashCode bilgisi olduğunu düşünebiliriz.
  * Birden fazla object'in aynı hashCode bilgisi olabilir.

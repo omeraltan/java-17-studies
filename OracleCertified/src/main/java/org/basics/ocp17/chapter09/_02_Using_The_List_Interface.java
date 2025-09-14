@@ -58,7 +58,7 @@ public class _02_Using_The_List_Interface {
 
         System.out.println("-------------------------");
 
-        var strings = new ArrayList<String>();       // -> Değişken var olarak tanımlanabilir. Burada tip bilgisi String'dir. Bunu kodun sağ tarafından çıkartabiliyoruz.
+        var strings = new ArrayList<String>();       // -> Değişken "var" olarak tanımlanabilir. Burada tip bilgisi String'dir. Bunu kodun sağ tarafından çıkartabiliyoruz.
         strings.add("a");
         for (String s : strings){  }
 
@@ -175,7 +175,7 @@ public class _02_Using_The_List_Interface {
  *
  * ----- Working With List Methods -----
  * List interface'indeki methodlar indeks tabanlı olarak çalışır.
- * Lİnst interface'i Collection interface'ini implement ettiği için doğal olarak Collection da yer alan methodlarıda extend edecektir.
+ * List interface'i Collection interface'ini implement ettiği için doğal olarak Collection da yer alan methodlarıda extend edecektir.
  *
  * --------------- List Methods ---------------
  * ---------------------------------------------------------------------------------------------------------------------
