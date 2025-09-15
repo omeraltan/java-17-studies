@@ -49,13 +49,13 @@ public class _06_Using_The_Map_Interfaces {
 
 /**
  *
- * Map Collection interface'ini kalıtmaz.
+ * Map, Collection interface'ini kalıtmaz.
  * Map veri yapısı "key" ve "value" çiftinden oluşur.
  * Bir Map'in key'leri unique olmak zoeundadır. duplicate olamaz.
- * İki Object için equals true olduğunda bunlar bir Map'te key olarak duplicate olacaktır.
+ * İki Object için equals true olduğunda bunlar bir Map'te key, duplicate olacaktır.
  * Map'in value'ları ise duplicate olabilir.
- * Map'in çeşitli impemantasyonları vardır. Bunlar: HashMap, LinkedHashMap, TreeMap, HastTable gibi sınıflardır.
- * Map.of() ve Map.copyOf() methodları: List ve Set interface'lerinde olduğu gibi of ve compyOf methodlarını bir Map oluşturmak için kullanabiliriz.
+ * Map'in çeşitli implemantasyonları vardır. Bunlar: HashMap, LinkedHashMap, TreeMap, HastTable gibi sınıflardır.
+ * Map.of() ve Map.copyOf() methodları: List ve Set interface'lerinde olduğu gibi of ve copyOf methodlarını bir Map oluşturmak için kullanabiliriz.
  * List ve Set interface'inde olduğu gibi aynı şekilde oluşturduğumuzda immutable özelliğe sahip olacaktır. Dolayısıyla herhangi bir modifiye işlemi yapamayız.
  * Map.of("key1", "value1", "key2", "value2"); -> Bu işlem değiştirilemez.
  * Map.ofEntries(
@@ -78,8 +78,8 @@ public class _06_Using_The_Map_Interfaces {
  * LinkedHashMap sınıfı HashMap sınıfını kalıtmaktadır.
  * HashMap ve LinkedHashMap, null-key ve null-value'lara izin verir.
  * HashMap, LinkedHashMap'e göre daha hızlı çalışır.
- * HashMap bir "bucket" yapısı kullanır. LinkedHashMap ise "double-linked-bucket" yapısı kullanmaktadır. Bu nedenle LinkedHashMap daha fazla memry'e ihtiyaç duyar.
- * HashTable null-key ve null-value'lara izin vermez. HashTable methodları senkronie özelliğe sahiptir. Bu nedenle HashTable, Hashmap'e göre daha yavaş çalışacaktır.
+ * HashMap bir "bucket" yapısı kullanır. LinkedHashMap ise "double-linked-bucket" yapısı kullanmaktadır. Bu nedenle LinkedHashMap daha fazla memory'e ihtiyaç duyar.
+ * HashTable null-key ve null-value'lara izin vermez. HashTable methodları senkronize özelliğe sahiptir. Bu nedenle HashTable, Hashmap'e göre daha yavaş çalışacaktır.
  * TreeMap sorted özelliğe sahiptir. Yani key'ler sorted olacaktır.
  * TreeMap null-key'e sahip olamaz.
  * Treemap NavigableMap interface'ini implement eder.
@@ -90,7 +90,7 @@ public class _06_Using_The_Map_Interfaces {
  * -----------------------------------------------------------------------------------------------------------------------------------
  * public void clear()                                      Removes all keys and values from map.                                                                       (Bütün map'i temizler)
  * public boolean containsKey(Object key)                   Returns whether key is in map.                                                                              (İlgili key Map'te yer alıyorsa true döner.)
- * public boolean containsValue(Object value)               Returns whether value is in map.                                                                            (İlgili value Map'te yeralıyorsa true döner.)
+ * public boolean containsValue(Object value)               Returns whether value is in map.                                                                            (İlgili value Map'te yer alıyorsa true döner.)
  * public Set<Map.Entry<K,V>> entrySet()                    Returns Set of key/value pairs.                                                                             (Bu method geriye Set döner ve key/value pair döner.)
  * public void forEach(BiConsumer<K key, V value>)          Loops through each key/value pair.
  * public V get(Object key)                                 Returns value mapped by key or null if none is mapped                                                       (Bir key verildiğinde value döner eğer bulamazsa null dönecektir.)

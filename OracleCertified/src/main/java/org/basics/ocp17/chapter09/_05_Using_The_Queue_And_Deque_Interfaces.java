@@ -10,24 +10,24 @@ public class _05_Using_The_Queue_And_Deque_Interfaces {
 
         System.out.println("---------------");
 
-        //linkedListQueueExample2();
+        // linkedListQueueExample2();
 
         System.out.println("---------------");
 
-        priorityQueueExample();
+        // priorityQueueExample();
 
         System.out.println("---------------");
 
-        dequeExample();
+        // dequeExample();
 
         System.out.println("---------------");
 
-        arrayDequeExample();
+        // arrayDequeExample();
 
         System.out.println("---------------");
 
 
-        stackExample();
+        // stackExample();
 
     }
 
@@ -35,9 +35,13 @@ public class _05_Using_The_Queue_And_Deque_Interfaces {
         Queue<Integer> queue = new LinkedList<>();
         queue.add(10);
         queue.add(4);
-        System.out.println(queue.remove());     // -> 10
-        System.out.println(queue.peek());       // -> 4
-        System.out.println(queue.peek());
+        System.out.println(queue.remove());     // -> 10 (değeri getirip sonrasında silme işlemi yapıyor.)
+        System.out.println(queue.peek());       // -> 4 (ilk değeri okur.)
+        System.out.println(queue.peek());       // -> 4 (ilk değeri okur.)
+        System.out.println(queue.element());    // -> 4 (ilk değeri okur.)
+        System.out.println(queue.remove());     // -> 4 (değeri getirip sonrasında silme işlemi yapıyor.)
+        // System.out.println(queue.remove());     // -> değer bulamayacağı için "NoSuchElementException" hatası fırlatır.
+        System.out.println(queue.poll());       // -> hata fırlatmaz. Sillinecek eleman bulamadığı için "null" döner.
     }
 
     private static void linkedListQueueExample2(){
@@ -66,10 +70,10 @@ public class _05_Using_The_Queue_And_Deque_Interfaces {
         System.out.println(queue.remove());
         System.out.println(queue);
 
-        System.out.println(queue.poll());       // No Exception!
-        System.out.println(queue.poll());       // No Exception!
-        System.out.println(queue.poll());       // No Exception!
-        System.out.println(queue.poll());       // No Exception!
+        System.out.println(queue.poll());       // No Exception! return only null
+        System.out.println(queue.poll());       // No Exception! return only null
+        System.out.println(queue.poll());       // No Exception! return only null
+        System.out.println(queue.poll());       // No Exception! return only null
 
         System.out.println(queue.remove());     // NoSuchElementException
     }
@@ -80,7 +84,7 @@ public class _05_Using_The_Queue_And_Deque_Interfaces {
         queue.add(4);
 
         System.out.println(queue.remove());     // 10
-        System.out.println(queue.element());       // 4
+        System.out.println(queue.element());    // 4
         System.out.println(queue.peek());       // 4
     }
 
