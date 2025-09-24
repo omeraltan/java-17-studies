@@ -98,7 +98,7 @@ class Duck implements Comparable<Duck>{
         ducks.add(new Duck("Quack"));
         ducks.add(new Duck("Puddles"));
         ducks.add(new Duck("Donald"));
-        ducks.add(null); // Causes Collections.sort throwing NullPointerException
+        // ducks.add(null); // Causes Collections.sort throwing NullPointerException
         Collections.sort(ducks);                // sort by name
         System.out.println(ducks);              // [Puddles, Quack]
 
@@ -145,6 +145,8 @@ class LegacyDuck implements Comparable{
         ducks.add(new Duck("Puddles"));
         ducks.add(new Duck("Donald"));
         Collections.sort(ducks);                // sort by name
+
+        System.out.println(ducks);
     }
 }
 
@@ -171,7 +173,7 @@ class LegacyDuck implements Comparable{
  * Comparable interface ine <T> verilmediğinde Object tipinde olur. Bu durumda casting yapılması gerekmektedir.
  * ---------- Checking for null ----------
  * Comparable ve Comparator ile çalışırken çalıştığımız collection yapısı null değerlere sahip olabilir.
- * compare methodunu yazarken önceden doğrulanmamışsa yani validate edilmemiş ise bud durumda verileri karşılaştırmadan önce kontrol etmemiz gerekir.
+ * compare methodunu yazarken önceden doğrulanmamışsa yani validate edilmemiş ise bu durumda verileri karşılaştırmadan önce kontrol etmemiz gerekir.
  *
  *
  *

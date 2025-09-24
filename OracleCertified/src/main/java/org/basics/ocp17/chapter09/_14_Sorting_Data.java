@@ -103,7 +103,7 @@ class SortingAList{
         bunnies.add("floppy");
         bunnies.add("hoppy");
         System.out.println(bunnies);
-        bunnies.sort((b1, b2) -> b1.compareTo(b2));     // compareTo methodu iki tane parametre alır ve geriye int döner. Bir functional interface'dir.
+        bunnies.sort((b1, b2) -> b1.compareTo(b2));     // compareTo methodu bir tane parametre alır ve geriye int döner. Bir functional interface'dir.
         System.out.println(bunnies);
 
         System.out.println("---------------");

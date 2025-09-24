@@ -43,7 +43,8 @@ public class _13_Sorting_Data {
         ZEmployee zemployee4 = new ZEmployee(5, "Jones", "Brown", 950.78);
         ZEmployee zemployee5 = new ZEmployee(6, "Jones", "Black", 1950.0);
         ZEmployee zemployee6 = new ZEmployee(8, "Lopez", "Hernandez", 1200.0);
-        ZEmployee zemployee7 = new ZEmployee(15, "Anserson", "Wilson", 900.0);
+        ZEmployee zemployee7 = new ZEmployee(15, "Anderson", "Wilson", 1300.0);
+        ZEmployee zemployee8 = new ZEmployee(15, "Anderson", "Wilson", 1200.0);
 
         List<ZEmployee> zEmployees = new ArrayList<>();
         zEmployees.add(zemployee1);
@@ -53,11 +54,20 @@ public class _13_Sorting_Data {
         zEmployees.add(zemployee5);
         zEmployees.add(zemployee6);
         zEmployees.add(zemployee7);
+        zEmployees.add(zemployee8);
 
         Comparator<ZEmployee> c = Comparator.comparing(ZEmployee::getFirstName)
             .thenComparingDouble(ZEmployee::getSalary);
 
+        Comparator<ZEmployee> d = Comparator.comparing(ZEmployee::getLastName)
+                .thenComparingDouble(ZEmployee::getSalary);
+
         Collections.sort(zEmployees, c);
+        zEmployees.forEach(System.out::println);
+
+        System.out.println("--------------------");
+
+        Collections.sort(zEmployees, d);
         zEmployees.forEach(System.out::println);
 
         System.out.println("--------------------");
