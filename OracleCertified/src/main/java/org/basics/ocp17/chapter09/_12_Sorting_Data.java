@@ -74,7 +74,7 @@ class Duck2 implements Comparable<Duck2>{
  *
  * ---------- Comparing Data with a Comparator ----------
  * Comparable interface'ini implement etmeyen Object'leri sort etmek için Comparator interface'inden yararlanırız.
- * java.util.Comparator interface'ini srot methodunun overloaded versiyonunu da kullanabiliriz.
+ * java.util.Comparator interface'ini sort methodunun overloaded versiyonunu da kullanabiliriz.
  * java.util.Comparator interface'inde compare methodu yer alır ve iki tane T tipinde parametre alır.
  * Comparable interface'i ise java.lang paketinde yer alır ve dolayısıyla Comparable'ı kullanırken herhangi bir import işlemi yapmayız fakat Comparator interface'i java.util paketinde yer aldığı için import etmemiz gerekir.
  * Comparator interface'i bir functional interface'dir.
