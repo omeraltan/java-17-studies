@@ -7,8 +7,6 @@ public class _16_Working_With_Generics {
 
     public static void main(String[] args) {
 
-
-
     }
 
     // type erasure olduğu için iki methodun da parametresi aynı olarak kabul edilir.
@@ -16,11 +14,9 @@ public class _16_Working_With_Generics {
     protected void chew(List<Object> input){}
     // protected void chew(List<Double> input){}   // DOES NOT COMPILE
 
-
-
 }
 
-// Bu class 'ı önceki derste kullandığımız type parameter'lı Crate class'ı olarak düşünebiliriz.
+// Bu class'ı önceki derste kullandığımız type parameter'lı Crate class'ı olarak düşünebiliriz.
 // Günün sonunda bütün type parameter'lar Object'e dönüşüyor.
 class Crate2 {
 
@@ -65,8 +61,6 @@ class Goat extends Mammal {
     // public List<String> play(){return new ArrayList<>();}   // DOES NOT COMPILE (Generic type farklı olduğu için hata verir.)
     public String sleep(){return "";}       // Burada String CharSequence'in covariant tipi olduğu için sorun olmayacaktır.
 }
-
-
 
 /**
  *

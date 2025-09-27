@@ -78,7 +78,11 @@ class CrateExample{
 
         Elephant elephant1 = new Elephant();
         Integer numPounds = 15_000;
+        Double numPoundsDouble = 15_000.00;
         SizeLimitedCrate<Elephant, Integer> c1 = new SizeLimitedCrate<>(elephant1, numPounds);
+        System.out.println(c1.getValue());
+        SizeLimitedCrate<Elephant, Double> c2 = new SizeLimitedCrate<>(elephant1, numPoundsDouble);
+        System.out.println(c2.getValue());
     }
 
 }
@@ -95,6 +99,10 @@ class SizeLimitedCrate<T, U>{
         this.sizeLimit = sizeLimit;
     }
 
+    public U getValue(){
+        return sizeLimit;
+    }
+
 }
 
 /**
@@ -106,7 +114,7 @@ class SizeLimitedCrate<T, U>{
  * - compile time zamanında güçlü bir type check kontrolü sağlar.
  * - cast etme işlemini ortadan kaldırır.
  * -  run time da alınan hatalar daha maliyetlidir. Bizi bundan kurtarır.
- * --------------- Creating Gneric Classes --------------
+ * --------------- Creating Generic Classes --------------
  * Generic özelliğini class'larımızı tanımlarken kullanabiliriz (<T> Buradaki büyük T harfi tipi ifade eder. Aslında bir tip parametresi almaktadır.).
  *
  * --------------- Naming Conventions For Generics -----
@@ -118,6 +126,6 @@ class SizeLimitedCrate<T, U>{
  * S, U, V ve daha çoğu çoklu generic type'lar için kullanılır.
  * R -> Functional interface lerde dönüş tipini ifade eder.
  *
- * Generic class lar teki bit tip parametresi almak zorunda değildir.
+ * Generic class lar da tekil bir tip parametresi almak zorunda değildir.
  *
  */
