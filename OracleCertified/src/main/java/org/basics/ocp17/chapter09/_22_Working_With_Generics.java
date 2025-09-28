@@ -1,7 +1,5 @@
 package org.basics.ocp17.chapter09;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -56,7 +54,7 @@ public class _22_Working_With_Generics {
  * ---------------------------------------------------------------------------------------------------------------------------------------------
  * List<?> kullanıldığında (static void addSound(List<?> list) methodunda bu şekilde), bu durumda ekleme işlemi yapılamaz ancak String ve Object parametre olarak geçirilebilir (Birinci satır için konuşuyorum).
  * List<? extends Object> kullanıldığında (static void addSound(List<? extends Object> list) methodunda bu şekilde), bu durumda da ekleme işlemi yapılamaz ancak String ve Object parametre olarak geçirilebilir .
- * List<Object> kullanıldığında (static void addSound(List<Object> list) methodunda bu şekilde), bu durumda eleman eklenebilir ancak Stirng gönderilemez, Object gönderilebilir.
+ * List<Object> kullanıldığında (static void addSound(List<Object> list) methodunda bu şekilde), bu durumda eleman eklenebilir ancak String gönderilemez, Object gönderilebilir.
  * List<? super String> kullanıldığında (static void addSound(List<? super String> list) methodunda bu şekilde), bu durumda eleman eklenebilir, List<String> veya List<Object> eleman olarak geçirilebilir.
  * Yukarıdaki super'li yapıya lower-bounded kullanımı denilir.
  *

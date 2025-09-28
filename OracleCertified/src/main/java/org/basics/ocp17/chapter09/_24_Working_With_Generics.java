@@ -44,7 +44,7 @@ public class _24_Working_With_Generics {
     }
     */
 
-    // BU deklarasyonda herhangi bir sorun yoktur. Buaraya geçirilebilecek parametreler -> List<B1>, List<A1>, List<Object>
+    // BU deklarasyonda herhangi bir sorun yoktur. Buraya geçirilebilecek parametreler -> List<B1>, List<A1>, List<Object>
     void fourth(List<? super B1> list){
 
     }
