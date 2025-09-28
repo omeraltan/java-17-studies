@@ -6,8 +6,6 @@ public class _18_Working_With_Generics {
 
     public static void main(String[] args) {
 
-
-
     }
 
 }
@@ -30,8 +28,8 @@ class More{
     public static <T> T identity(T t) {return t;}
     // public static T noGood(T t) {return t;} // DOES NOT COMPILE
     // Static method'lar class instance'ına bağlı değildir - class'ın kendisine aittir
-    //Generic type parameter <T> instance seviyesinde tanımlanır - class'ın her instance'ı için farklı olabilir
-    //Static method'lar instance oluşturulmadan çağrılabilir, bu yüzden hangi T tipini kullanacağını bilemez
+    // Generic type parameter <T> instance seviyesinde tanımlanır - class'ın her instance'ı için farklı olabilir
+    // Static method'lar instance oluşturulmadan çağrılabilir, bu yüzden hangi T tipini kullanacağını bilemez
 }
 
 class Box{
@@ -77,8 +75,8 @@ class Example<T> {  // Class-level generic
     public static void main(String[] args) {
         // Kullanım:
         Example<String> example = new Example<>();
-        example.useClassT("hello");           // T = String
-        example.method(42);                   // U = Integer
+        example.useClassT("hello");            // T = String
+        example.method(42);                    // U = Integer
         example.method(true);                  // U = Boolean
     }
 }
@@ -124,9 +122,9 @@ record CrateRecord2<T> (T contents) {
 /**
  *
  * --------------- Writing Generic Methods ---------------
- * Generic parameterlar class ve interface seviyesinde tanımlanabildiği gibi method tanımlarında da generic parameter kullanılabilir.
+ * Generic parameter'lar class ve interface seviyesinde tanımlanabildiği gibi method tanımlarında da generic parameter kullanılabilir.
  * Bu özellikle static methodlar için kullanılmaktadır.
- * Static methodlar için generic deklerassyonu yapılmak zorundadır.
+ * Static methodlar için generic deklerasyonu yapılmak zorundadır.
  * Static method'larda generic type parameter kullanmak için method seviyesinde <T> tanımlamak gerekir, class seviyesinde değil.
  *
  * --------------- Optional Syntax For Invoking A Generic Method ---------------

@@ -110,13 +110,9 @@ public class _20_Working_With_Generics {
 
 }
 
-class Parent {
+class Parent { }
 
-}
-
-class Child extends Parent {
-
-}
+class Child extends Parent { }
 
 /**
  *

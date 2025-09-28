@@ -46,7 +46,7 @@ public class _21_Working_With_Generics {
         ArrayList<?> unbounded2 = new ArrayList<>();
 
         List<? extends Object> upperBounded = new ArrayList<>();        // Joker karakter türü argümanı '?' açıkça 'java.lang.Object'i genişletir
-        ArrayList<? extends  Object> upperBounded2 = new ArrayList<>(); // Joker karakter türü argümanı '?' açıkça 'java.lang.Object'i genişletir
+        ArrayList<? extends Object> upperBounded2 = new ArrayList<>(); // Joker karakter türü argümanı '?' açıkça 'java.lang.Object'i genişletir
         // Aslında <? extends  Object> ile <?> aynı şeydir.
 
         List<Object> objects = new ArrayList<>();   // Bu yapıya eleman ekleme işlemi yapılabilir ancak <?> yapıya eleman ekleme işlemi yapılamaz.
@@ -62,7 +62,7 @@ public class _21_Working_With_Generics {
         return count;
     }
 
-    // type erasure: arka tarafta bizim generic kontrolümüz kaldırılır ve aiağıdaki yapıya dönüşür.
+    // type erasure: arka tarafta bizim generic kontrolümüz kaldırılır ve aşağıdaki yapıya dönüşür.
     private static long totalConverted(List list){
         long count = 0;
         for (Object obj : list){
