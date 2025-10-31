@@ -39,6 +39,14 @@ public class _12_Using_Streams {
             .peek(n -> System.out.println("İki katı: " + n))
             .collect(Collectors.toList());
 
+        System.out.println("--------------------");
+
+        List<Integer> result2 = List.of(1,2,3,4,5,6,7,8,9,10);
+        result2.stream()
+            .filter(n -> n > 5)
+            .peek(n -> System.out.print("Values : " + n + " "))
+            .collect(Collectors.toList());
+
     }
 
 }

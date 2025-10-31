@@ -13,7 +13,7 @@ public class _07_Using_Streams {
         System.out.println("-------------------");
 
         Stream<Integer> s2 = Stream.of(1);
-        // for (Integer : s2) {} // DOES NOT COMPILE (Traditional for döngüsü Stream'ler ile birlikte kullanılamazlar. Çünkü Strea, iterable interface'ini kalıtmaz.)
+        // for (Integer : s2) {} // DOES NOT COMPILE (Traditional for döngüsü Stream'ler ile birlikte kullanılamazlar. Çünkü Stream, iterable interface'ini kalıtmaz.)
 
         System.out.println("-------------------");
 

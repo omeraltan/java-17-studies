@@ -9,13 +9,13 @@ public class _05_Using_Streams {
     public static void main(String[] args) {
 
         Stream<String> s1 = Stream.of("monkey","gorilla","bonobo");
-        System.out.println(s1.count());                                          // 3
+        System.out.println(s1.count()); // 3
 
         System.out.println("---------------------");
 
         Stream<String> s2 = Stream.of("monkey","ape","bonobo");
         Optional<String> min = s2.min((x1,x2) -> x1.length() - x2.length());
-        min.ifPresent(System.out::println);
+        min.ifPresent(System.out::println); // ape
 
         Optional<?> minEmpty = Stream.empty().min((x1,x2) -> 0);
         System.out.println(minEmpty.isPresent());   // false
@@ -55,7 +55,7 @@ public class _05_Using_Streams {
  * -------------------- Using Common Terminal Operations --------------------
  * Terminal operation'lar sonlandırıcı işlemlerdir.
  * Bunlar intermediate operation'lar olmadanda kullanılabilirler. Tersi mümkün değildir.
- * Reduction: termianl operation'ın özelleşmiş halidir. Reduction işleminde, Stream'de yer alan tüm elemanlar bir primitive değere, object'e indirgenir.
+ * Reduction: terminal operation'ın özelleşmiş halidir. Reduction işleminde, Stream'de yer alan tüm elemanlar bir primitive değere, object'e indirgenir.
  * -------------------- Terminal Stream Operations ------------------------------------------
  * Method               What happens for infinite streams       Return value        Reduction
  * ------------------------------------------------------------------------------------------

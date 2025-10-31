@@ -120,5 +120,4 @@ public class _27_Working_With_Advanced_Stream_Pipeline_Concepts {
  * teeing(Collector<? super T, ?, R1> c1, Collector<? super T, ?, R2> c2, BiFunction<? super R1, ? super R2, ? extends R> merger) -> Aynı veriyi c1 ve c2 ile ayrı ayrı toplar; çıkan R1 ve R2 sonuçlarını merger ile tek R çıktısına çevirir.
  * teeing yapısı ile çoklu terminal işlemi kullanmış oluyoruz.
  *
- *
  */

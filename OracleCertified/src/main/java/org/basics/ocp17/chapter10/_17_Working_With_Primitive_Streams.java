@@ -62,7 +62,7 @@ public class _17_Working_With_Primitive_Streams {
  *          getAverage() → ortalama
  *
  *  5. Kullanım amacı:
- *      Bir akışı tek seferde tarayıp min, max, ort ve toplam gibi istatistikleri almak için.
+ *      Bir akışı tek seferde tarayıp min, max, average ve sum gibi istatistikleri almak için.
  *      Her metrik için ayrı terminal işlem yapmaktansa, tek bir geçişle toplu veri toplama.
  * Not: Stream<T> (generic) üzerinde direkt yoktur; sayısal akışlar için kullanılır.
  *

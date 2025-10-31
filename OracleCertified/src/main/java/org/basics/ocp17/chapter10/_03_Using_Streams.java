@@ -14,7 +14,7 @@ public class _03_Using_Streams {
  *
  * -------------------- Using Streams --------------------
  * Stream: Second of Date olarak ifade edilir. Yani birbiri ardına gelen bir veri kümesidir.
- * Stream pipeline, bir sonuç üretmek için Stream üzerinde yürütülen çeşşitli işlemlerden oluşur.
+ * Stream pipeline, bir sonuç üretmek için Stream üzerinde yürütülen çeşitli işlemlerden oluşur.
  * -------------------- Understanding The Pipeline Flow --------------------
  * Java Stream API: Hayvanat Bahçesi Montaj Hattı Benzetmesi
  * Java'da Stream API'yi anlamak için en etkili yöntemlerden biri, onu gerçek hayattaki bir montaj hattıyla karşılaştırmaktır.
@@ -23,17 +23,17 @@ public class _03_Using_Streams {
  * Bu süreçte dört işçi çalışıyor: ilk işçi kutudan boş tabelaları çıkarıyor, ikinci işçi onları boyuyor, üçüncü işçi hayvanın adını yazıyor ve son işçi tamamlanmış tabelayı doğru sergiye götürülmek üzere yığına koyuyor.
  * Bu süreçte her işçi bir önceki işçinin işini bitirmesini beklemek zorunda - boyacı, tabela çıkarılmadan hiçbir şey yapamaz.
  *
- * Stream API'deki veri akışı da tam olarak böyle çalışır. Veri kaynağından başlayarak, ara işlemlerden geçerek terminal işlemle sona erer.
+ * Stream API'deki veri akışı da tam olarak böyle çalışır. Veri kaynağından başlar, ara işlemlerden geçer ve terminal işlem ile sona erer.
  * Tıpkı montaj hattındaki tabelalar gibi, veri de tek yönlü akar ve bir kez işlendikten sonra geri dönmez.
  * En önemli özellik ise "lazy evaluation" (tembel değerlendirme) kavramıdır. Montaj hattındaki işçiler, ustabaşının "başla" emri gelene kadar çalışmazlar.
  * Stream API'de de ara işlemler, terminal işlem çağrılana kadar çalışmaz, sadece tanımlanır. Bu sayede gereksiz hesaplamalardan kaçınılır ve performans artırılır.
  * Örneğin, 10 hayvan arasından sadece kedigiller için tabela yapmak istiyorsanız, Stream API sadece kedigilleri işler, diğerlerine dokunmaz.
  * Bu, programlamada veri işleme süreçlerini optimize etmenin en etkili yollarından biridir.
  *
- * -------------------- Intermediate vs. Termianl Operations --------------------
+ * -------------------- Intermediate vs. Terminal Operations --------------------
  * Scenario                                 Intermediate operation Terminal operation
  * -------------------------------------------------------------------------------
- * Required part of useful pipeline?        No                      Yes                 -> Stream pipeline'ın geçerli olmasını sağlayan şey nedir? Terminal operationdır çünü terminal olmadan çalışmazlar. Pipeline için terminal operation zorunludur.
+ * Required part of useful pipeline?        No                      Yes                 -> Stream pipeline'ın geçerli olmasını sağlayan şey nedir? Terminal operationdır çünkü terminal olmadan çalışmazlar. Pipeline için terminal operation zorunludur.
  * Can exist multiple times in pipeline?    Yes                     No                  -> Birden fazla oepration yeralabilir. Terminal operation bir tanedir.
  * Return type is stream type?              Yes                     No                  -> Intermadiate operation lar stream olarak döner. Terminal operation geriye stream dönmez (Collection, Boolean. Primitive vb. dönebilir.).
  * Executed upon method call?               No                      Yes                 -> Terminal operation olmadan 10 tane dahi zincirleme method çağırsak (intermediate operation da) çalışmayacaktır.

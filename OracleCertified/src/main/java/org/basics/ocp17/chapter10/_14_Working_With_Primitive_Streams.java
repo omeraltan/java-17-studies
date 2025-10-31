@@ -52,6 +52,7 @@ public class _14_Working_With_Primitive_Streams {
         System.out.println();
         IntStream rangeClosed = IntStream.rangeClosed(1,5);
         rangeClosed.forEach(System.out::print); // 12345
+        System.out.println();
 
         System.out.println("--------------------");
 
@@ -104,9 +105,9 @@ public class _14_Working_With_Primitive_Streams {
  *  LongStream      : long ile uyumludur.
  *  DoubleStream    : double ve float ile uyumludur.
  *
- * ----------------------------------- Common Primitive Stream Methods -------------------------------------------------
+ * ----------------------------------- Common Primitive Stream Methods -------------------------------------------------------------------------------------------------------------------------
  * Method                                       Primitive Stream                                        Description
- * ---------------------------------------------------------------------------------------------------------------------
+ * ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  * OptionalDouble average()                     IntStream, LongStream, DoubleStream                     Arithmetic mean of elements
  * Stream<T> boxed()                            IntStream, LongStream, DoubleStream                     Stream<T> where T is wrapper class associated with primitive value
  * OptionalInt max()                            IntStream                                               Maximum element of stream

@@ -11,7 +11,7 @@ public class _13_Using_Streams {
         var list = List.of("Toby","Anna","Leroy","Alex");
         list.stream()
             .filter(n -> n.length() == 4)       // filtreleme yapar
-            .sorted()                                 // sırlama yapar
+            .sorted()                                 // sıralama yapar
             .limit(2)                         // sadece iki tane alır
             .forEach(System.out::println);            // yazdırır (Bu şekilde bir zincirleme işlemler gerçekleştirilir.)
 
@@ -33,8 +33,8 @@ public class _13_Using_Streams {
 
         System.out.println("--------------------");
 
-//        Stream.generate(() -> "Olaf Lazisson")          // Bu kod parçasıda takılı kalır
-//            .filter(n -> n.length() == 4)        //  String ifade 4 karakterden fazla olduğu için hiçbir şekilde filtreleme yapılamaz
+//        Stream.generate(() -> "Olaf Lazisson")          // Bu kod parçası da takılı kalır
+//            .filter(n -> n.length() == 4)               // String ifade 4 karakterden fazla olduğu için hiçbir şekilde filtreleme yapılamaz
 //            .limit(2)
 //            .sorted()
 //            .forEach(System.out::println);
@@ -43,8 +43,8 @@ public class _13_Using_Streams {
 
         long count = Stream.of("goldfish","finch")      // Hatta iki pipeline birlikte zincirlenebilir.
             .filter(s -> s.length() > 5)
-            .collect(Collectors.toList())            // Burada listeye dönüştürülüyor.
-            .stream()                                // listeden tekrardan stream oluşturuluyor
+            .collect(Collectors.toList())                       // Burada listeye dönüştürülüyor.
+            .stream()                                           // listeden tekrardan stream oluşturuluyor
             .count();
 
         System.out.println(count);
@@ -57,7 +57,6 @@ public class _13_Using_Streams {
         long count2 = helper.stream()
             .count();
         System.out.println(count2);
-
 
     }
 

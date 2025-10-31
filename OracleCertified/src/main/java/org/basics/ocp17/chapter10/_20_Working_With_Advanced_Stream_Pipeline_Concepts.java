@@ -21,6 +21,7 @@ public class _20_Working_With_Advanced_Stream_Pipeline_Concepts {
 
         originalBagOfFood.forEachRemaining(System.out::print);
 
+        System.out.println();
         System.out.println("--------------------");
 
         /*
@@ -106,7 +107,7 @@ public class _20_Working_With_Advanced_Stream_Pipeline_Concepts {
 /**
  *
  * -------------------- Using A Spliterator --------------------
- * Spliterator interface i java.util paketinde yer alır.
+ * Spliterator interface'i java.util paketinde yer alır.
  * JDK 1.8 ile eklenmiştir.
  * Spliterator'lar, bir kaynağın elemanlarını tek tek dolaşmak için kullanılır.
  * Kaynak: Array, Collection yada Stream olabilir.

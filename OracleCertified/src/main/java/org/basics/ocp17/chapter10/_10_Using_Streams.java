@@ -50,6 +50,7 @@ public class _10_Using_Streams {
             .flatMap(Collection::stream)
             .toList()
             .stream().sorted()
+            .distinct()
             .forEach(System.out::print);
 
         System.out.println();

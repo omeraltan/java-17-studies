@@ -1,6 +1,5 @@
 package org.basics.ocp17.chapter10;
 
-import javax.swing.text.html.Option;
 import java.util.Optional;
 
 public class _19_Working_With_Advanced_Stream_Pipeline_Concepts {
@@ -20,7 +19,8 @@ public class _19_Working_With_Advanced_Stream_Pipeline_Concepts {
     }
 
     private static void threeDigit(Optional<Integer> optional){
-        optional.map(n -> "" + n)
+        optional
+            .map(n -> "" + n)
             .filter(s -> s.length() == 3)
             .ifPresent(System.out::println);
     }
@@ -46,16 +46,6 @@ public class _19_Working_With_Advanced_Stream_Pipeline_Concepts {
         System.out.println(upperCase);
     }
 
-    /**
-     * flatMap() kullanılır çünkü calculator() metodu zaten Optional<Integer> döndürüyor.
-     * Problem:
-     * map() kullanırsan Optional<Optional<Integer>> olur (iç içe Optional).
-     * flatMap() iç içe Optional'ı tek katmana indirir: Optional<Integer>.
-     * Kural:
-     * Metodun dönüşü Optional<T> ise flatMap() kullan.
-     * Metodun dönüşü T ise map() kullan.
-     * Bu kodda calculator() → Optional<Integer> döndürdüğü için flatMap() kullanılmalı.
-     */
     private static void optionalFlatMap(){
         Optional<Integer> optional = Optional.of(100);
         Optional<Integer> result = optional.flatMap(_19_Working_With_Advanced_Stream_Pipeline_Concepts::calculator);
@@ -71,7 +61,7 @@ public class _19_Working_With_Advanced_Stream_Pipeline_Concepts {
 /**
  *
  * -------------------- Chaining Optionals --------------------
- * Optional metodları birbirine bağlanarak zincirleme işlem yapılabilir. Her metod kendine özgü işlevlere sahiptir:
+ *  Optional methodları birbirine bağlanarak zincirleme işlem yapılabilir. Her metod kendine özgü işlevlere sahiptir:
  *  filter()    ->  ile koşul kontrolü yapılır
  *  map()       ->  ile dönüşümler yapılır
  *  flatMap()   ->  ile iç içe Optional'lar düzleştirilir

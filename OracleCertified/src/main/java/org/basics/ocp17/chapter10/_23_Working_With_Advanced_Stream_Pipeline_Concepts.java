@@ -60,8 +60,8 @@ public class _23_Working_With_Advanced_Stream_Pipeline_Concepts {
  *
  * -------------------- Collecting Into Maps --------------------
  * Java’da Collectors.toMap() ne işe yarar?
- * Bir akıştaki (Stream) elemanları, verdiğiniz anahtar ve değer fonksiyonlarına göre Map yapısına dönüştürür.
- * toMap(keyMapper, valueMapper)                                → Akıştaki her elemanı verilen anahtar ve değer fonksiyonlarıyla bir Map’e dönüştürür; aynı anahtar oluşursa hata (IllegalStateException) fırlatır; varsayılan Map türü HashMap’tir.
+ * Bir Stream'in elemanlarını, verilen anahtar ve değer fonksiyonlarına göre Map yapısına dönüştürür.
+ * toMap(keyMapper, valueMapper)                                → Stream'deki her elemanı, verilen anahtar ve değer fonksiyonlarıyla bir Map’e dönüştürür; aynı anahtar oluşursa hata (IllegalStateException) fırlatır; default Map türü HashMap’tir.
  * toMap(keyMapper, valueMapper, mergeFunction)                 → Anahtar çakıştığında değerleri nasıl birleştireceğini mergeFunction ile tanımlarsınız; böylece duplicate key hatası yerine birleştirme uygulanır; Map türü yine HashMap’tir.
  * toMap(keyMapper, valueMapper, mergeFunction, mapSupplier)    → Çakışma çözümünü mergeFunction belirler, üretilecek Map türünü (örn. LinkedHashMap, TreeMap) mapSupplier belirler; hem çakışma yönetimi hem Map tipi özelleştirilebilir.
  *
