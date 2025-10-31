@@ -86,14 +86,14 @@ public class _21_Working_With_Advanced_Stream_Pipeline_Concepts {
 
 /**
  *
- * --------------------- Collecting Results --------------------
+ * --------------------- Collecting Results ---------------------------------------------------------------------------------------------------
  * collect() methodu terminal bir methoddur.
  * Collector sınıfında yer alan bir çok method vardır.
  * Bunları collect methodu içerisinde kullanabiliriz.
  *
- * ------------------------------------------ Examples Of Grouping/Partitioning Collectors ----------------------------------------
+ * ------------------------------------------ Examples Of Grouping/Partitioning Collectors ----------------------------------------------------
  * Collector                                        Description                                             Return value when passed to collect
- * --------------------------------------------------------------------------------------------------------------------------------
+ * --------------------------------------------------------------------------------------------------------------------------------------------
  * averagingDouble(ToDoubleFunction f)              Calculates average for three core primitive types       Double
  * averagingInt(ToIntFunction f)
  * counting()                                       Counts number of elements                               Long

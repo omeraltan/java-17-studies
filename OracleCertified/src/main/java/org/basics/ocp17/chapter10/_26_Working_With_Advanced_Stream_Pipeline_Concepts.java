@@ -140,22 +140,22 @@ public class _26_Working_With_Advanced_Stream_Pipeline_Concepts {
  * Teknik 1: Sıfırdan başla ve adım adım ekle
  * Basit bir ifadeyle başla ve yavaş yavaş ekle. Her adımda küçük bir değişiklik yap. Böylece hatayı hangi kod parçasının getirdiğini görürsün.
  * Örnek:
- *      // 1. Adım: Basit başla
- *      Map<String, Long> result = books.stream()
- *     .collect(Collectors.groupingBy(Book::author));
+ *      1. Adım: Basit başla
+ *          Map<String, Long> result = books.stream()
+ *          .collect(Collectors.groupingBy(Book::author));
  *
- *      // 2. Adım: counting() ekle
- *      Map<String, Long> result = books.stream()
+ *      2. Adım: counting() ekle
+ *          Map<String, Long> result = books.stream()
  *          .collect(Collectors.groupingBy(Book::author, Collectors.counting()));
  *
  * Teknik 2: İfadeyi parçalara ayır
  * İfadenin parçalarını ayrı değişkenlere çıkar. Önce küçük parçaları test et.
  * Örnek:
- *      // Önce bu küçük parçayı test et
+ *
  *      Collector<String, ?, Map<Integer, Long>> collector =
  *      Collectors.groupingBy(String::length, Collectors.counting());
  *
- *      // Eğer bu compile olursa, sorun başka yerde
+ *
  *      Map<Integer, Long> result = books.stream()
  *          .map(Book::title)
  *          .collect(collector);

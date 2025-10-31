@@ -1,5 +1,6 @@
 package org.basics.ocp17.chapter10;
 
+import java.util.List;
 import java.util.Optional;
 
 public class _01_Returning_An_Optional {
@@ -13,12 +14,12 @@ public class _01_Returning_An_Optional {
 
         Optional<Double> opt = average(90,100);
         if (opt.isPresent()){                           // Eğer değer varsa koşulun içine gir demektir.
-            System.out.println(opt.get());              // 95.0 (get() iel değer alınıyor.)
+            System.out.println(opt.get());              // 95.0 (get() ile değer alınıyor.)
         }
 
         System.out.println("--------------------");
 
-        String value = "";
+        String value = "ömer";
 
         Optional o = (value == null) ? Optional.empty() : Optional.of(value);   // Eğer value null ise Optional.empty() dön değilse Optional.of() döner.
         // Bunun yerine ofNullable kullanılmaktadır.
@@ -29,6 +30,25 @@ public class _01_Returning_An_Optional {
 
         Optional<Double> c = average(90,100);
         c.ifPresent(System.out::println);
+
+        System.out.println("--------------------");
+
+        Optional<String> d = Optional.of("");
+        System.out.println(d.get());        // -> Eğer boş ise NoSuchElementException
+
+        System.out.println("--------------------");
+
+        List<String> e = List.of("ömer","ebru","adil","elif");
+        Optional<List<String>> f = Optional.of(e);
+        f.ifPresent(System.out::println);   // [ömer, ebru, adil, elif]
+
+        System.out.println("--------------------");
+
+        Optional<List<String>> g = Optional.empty();
+        g.ifPresent(System.out::println);
+
+
+
 
     }
 

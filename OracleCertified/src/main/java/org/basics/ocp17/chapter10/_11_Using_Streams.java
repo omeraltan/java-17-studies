@@ -11,7 +11,8 @@ public class _11_Using_Streams {
     public static void main(String[] args) {
 
         Stream<String> s1 = Stream.of("brown-","bear-");
-        s1.sorted()
+        s1
+            .sorted()
             .forEach(System.out::print);    // -> bear-brown-
 
         System.out.println();
@@ -19,8 +20,11 @@ public class _11_Using_Streams {
         System.out.println("--------------------");
 
         Stream<String> s2 = Stream.of("brown bear-", "grizzly-");
-        s2.sorted(Comparator.reverseOrder())
+        s2
+            .sorted(Comparator.reverseOrder())
             .forEach(System.out::print);
+
+        System.out.println();
 
         System.out.println("--------------------");
 
@@ -59,6 +63,5 @@ public class _11_Using_Streams {
  * İki tane versiyonu yer almaktadır.
  * Bir tanesi parametre almayan             : sorted()
  * Diğeri ise Comparator parametresi alan   : sorted(Comparator<? super T> comparator)
- *
  *
  */

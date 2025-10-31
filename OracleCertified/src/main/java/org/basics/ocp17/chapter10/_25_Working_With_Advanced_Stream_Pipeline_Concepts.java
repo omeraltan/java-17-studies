@@ -16,7 +16,7 @@ public class _25_Working_With_Advanced_Stream_Pipeline_Concepts {
         System.out.println(map1);    // {false=[tigers], true=[lions, bears]}
 
         System.out.println("--------------------");
-        // şartı sağlamayan eleman yoksa liste boş döner. Şöyle gözükecektir -> false=[]
+        // Şartı sağlamayan eleman yoksa liste boş döner. Şöyle gözükecektir -> false=[]
         var ohMy2 = Stream.of("lions","tigers","bears");
         Map<Boolean, List<String>> map2 = ohMy2.collect(
             Collectors.partitioningBy(s -> s.length() <= 7));

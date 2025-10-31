@@ -50,17 +50,16 @@ public class _16_Working_With_Primitive_Streams {
 
 /**
  *
- * -------------------- Using Optional With Primitive Streams --------------------
+ * -------------------- Using Optional With Primitive Streams ------------------------------
  * Primitive Stream'ler kendileri ie uyumlu OptionalDouble, OptionalInt ve OptionalLong gibi sınıfları kullanırlar.
  *
- * -------------------- Optional Types For Primitives --------------------------------------
+ * -------------------- Optional Types For Primitives -------------------------------------------
  *                                  OptionalDouble          OptionalInt         OptionalLong
- * -----------------------------------------------------------------------------------------
+ * ----------------------------------------------------------------------------------------------
  * Getting as primitive             getAsDouble()           getAsInt()          getAsLong()
  * orElseGet() parameter type       DoubleSupplier          IntSupplier         LongSupplier
  * Return type of max() and min()   OptionalDouble          OptionalInt         OptionalLong
  * Return type of sum()             double                  int                 long
  * Return type of average()         OptionalDouble          OptionalDouble      OptionalDouble
- *
  *
  */
